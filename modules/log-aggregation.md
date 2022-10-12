@@ -10,10 +10,6 @@ The table below summarizes the aggregation levels.
 
 ![flow-log-aggregation](images/flow-log-aggregation.png)
 
-
-
----
-
 # Lesson Video
 
 
