@@ -1,5 +1,8 @@
+# Platform Tier Security Policies
 
 ![platform tier](images/quickstart-self-service-platform-tier.png)
+
+## `cluster-dns-allow-all` Security Policy
 
 ![cluster-dns-allow-all](images/quickstart-self-service-cluster-dns-allow-all.png)
 
