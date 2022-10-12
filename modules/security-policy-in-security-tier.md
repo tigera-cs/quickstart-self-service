@@ -3,9 +3,14 @@
 
 ![security-tier](images/security-tier.png)
 
-## tenant-1-restrict security policy
+## `tenant-1-restrict` security policy
+
+> `tenant-1-restrict` security policy - UI view
 
 ![tenant-1-restrict](images/quickstart-self-service-tenant-1-restrict.png)
+
+> `tenant-1-restrict` security policy - yaml
+
 ```yaml
 apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
