@@ -33,7 +33,7 @@ The `tenant-1-restrcit` security policy has the following egress rules.
 ![tenant-1-restrict](images/quickstart-self-service-tenant-1-restrict.png)
 
 
-### Seucrity Policy - Manifest
+### Security Policy - Manifest
 > `tenant-1-restrict` security policy - yaml
 
 ```yaml
@@ -93,6 +93,12 @@ spec:
     - Ingress
     - Egress
 ```
+
+### Validate Endpoints
+
+Validate the endpoints selected by the `tenant-1-restrict` security policy by clicking on the number of endpoints in UI view. In the output below, all endpoints belong to the `hipstershop` and `yaobank` namespaces. 
+
+![endpoints-tenant-1-restrict](images/endpoints-tenant-1-restrict.png)
 
 ## `tenant-2-restrict` security policy
 
