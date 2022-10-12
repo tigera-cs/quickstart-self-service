@@ -5,12 +5,13 @@
 
 ## `tenant-1-restrict` security policy
 
-### Policy Endpoint and Namespace Selector
+### Policy lable and Namespace Selector
 
 
-The `tenant-1-restrcit` security policy has the following ingress and egress rules
 
 ### Ingress Rules
+
+The `tenant-1-restrcit` security policy has the following ingress rules.
 
 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is **from** any endpoint in the `hipstershop` or `yaobank` namespaces. 
 
@@ -20,13 +21,12 @@ The `tenant-1-restrcit` security policy has the following ingress and egress rul
 
 ### Egress Rules
 
-01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** any endpoint in the `hipstershop` or `yaobank` namespaces. 
+The `tenant-1-restrcit` security policy has the following egress rules.
 
-02. **Rule 1** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** TCP port 80 or 443.
-
-03. **Rule 2** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** UDP port 53.
-
-04. **Rule 3** - For endpoints in tenant-1, deny all other egress traffic.
+> 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** any endpoint in the `hipstershop` or `yaobank` namespaces. 
+> 02. **Rule 1** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** TCP port 80 or 443.
+>03. **Rule 2** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** UDP port 53.
+> 04. **Rule 3** - For endpoints in tenant-1, deny all other egress traffic.
 
 
 ### Seucrity Policy - UI View
