@@ -14,7 +14,8 @@ The table below summarizes the aggregation levels.
 
 ---
 
-## Lesson Video
+# Lesson Video
+
 
 <p align="center">
   
@@ -22,4 +23,4 @@ The table below summarizes the aggregation levels.
 
 </p>
 
-
+---
