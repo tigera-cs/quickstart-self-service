@@ -7,16 +7,14 @@
 
 ### Policy lable and Namespace Selector
 
-
+There is no policy label selector for the `tenant-1-restrict` security policy. Namespace label selectors are used to select all endpoints in the `hipstershop` and `yaobank` namespaces. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespaces.   
 
 ### Ingress Rules
 
 The `tenant-1-restrcit` security policy has the following ingress rules.
 
 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is **from** any endpoint in the `hipstershop` or `yaobank` namespaces. 
-
 02. **Rule 1** -  For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is **from** any endpoint in the `ingress-nginx` namespace. 
-
 03. **Rule 2** - For endpoints in tenant-1, deny all other ingress traffic.  
 
 ### Egress Rules
