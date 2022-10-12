@@ -1,13 +1,16 @@
 
-## Security Policies in the Security Tier
+# Security Policies in the Security Tier
 
 ![security-tier](images/security-tier.png)
 
 ## `tenant-1-restrict` security policy
 
+### Policy Endpoint and Namespace Selector
+
+
 The `tenant-1-restrcit` security policy has the following ingress and egress rules
 
-### Ingress
+### Ingress Rules
 
 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is **from** any endpoint in the `hipstershop` or `yaobank` namespaces. 
 
@@ -15,7 +18,7 @@ The `tenant-1-restrcit` security policy has the following ingress and egress rul
 
 03. **Rule 2** - For endpoints in tenant-1, deny all other ingress traffic.  
 
-### Egress
+### Egress Rules
 
 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** any endpoint in the `hipstershop` or `yaobank` namespaces. 
 
@@ -26,11 +29,13 @@ The `tenant-1-restrcit` security policy has the following ingress and egress rul
 04. **Rule 3** - For endpoints in tenant-1, deny all other egress traffic.
 
 
-
+### Seucrity Policy - UI View
 > `tenant-1-restrict` security policy - UI view
 
 ![tenant-1-restrict](images/quickstart-self-service-tenant-1-restrict.png)
 
+
+### Seucrity Policy - Manifest
 > `tenant-1-restrict` security policy - yaml
 
 ```yaml
@@ -92,6 +97,12 @@ spec:
 ```
 
 ## `tenant-2-restrict` security policy
+
+The `tenant-2-restrcit` security policy has the following ingress and egress rules
+
+## Ingress
+
+01. **Rule 0** - For endpoints in tenant-2, pass security policy evaluation to a subsequent tier if traffic is **from** any endpoint in the `bookinfo` namespaces. 
 
 > `tenant-2-restrict` security policy - UI view
 
