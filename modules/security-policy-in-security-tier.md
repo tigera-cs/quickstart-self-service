@@ -7,7 +7,7 @@
 
 The `tenant-1-restrcit` security policy has the following ingress and egress rules
 
-###Ingress
+### Ingress
 
 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is **from** any endpoint in the `hipstershop` or `yaobank` namespaces. 
 
@@ -15,7 +15,7 @@ The `tenant-1-restrcit` security policy has the following ingress and egress rul
 
 03. **Rule 2** - For endpoints in tenant-1, deny all other ingress traffic.  
 
-###Egress
+### Egress
 
 01. **Rule 0** - For endpoints in tenant-1, pass security policy evaluation to a subsequent tier if traffic is sent **to** any endpoint in the `hipstershop` or `yaobank` namespaces. 
 
