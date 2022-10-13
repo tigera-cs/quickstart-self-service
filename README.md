@@ -24,7 +24,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
    projectcalico.org/name
    projectcalico.org/servicenedpoint
 
-### **03. Module 3 - Security Policy Framework for Zero-Trust Microsegmentation**
+### **03. Module 3 - Security Policy Framework for Zero-Trust Micro-segmentation**
 
    - [Module 3 - Introduction](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-3-introduction.md)
    - [Lesson 1 - Security Policy Framework Overview](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-framework-overview.md)

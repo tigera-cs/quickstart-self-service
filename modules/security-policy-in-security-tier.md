@@ -7,7 +7,7 @@
 
 ### Policy lable and Namespace Selector
 
-There is no policy label selector for the `tenant-1-restrict` security policy. Namespace label selectors are used to select all endpoints in the `hipstershop` and `yaobank` namespaces. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespaces.   
+There are no policy label selectors for the `tenant-1-restrict` security policy. Namespace label selectors are used to select all endpoints in the `hipstershop` and `yaobank` namespaces. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespaces.   
 
 ### Ingress Rules
 
@@ -104,7 +104,7 @@ Validate the endpoints selected by the `tenant-1-restrict` security policy by cl
 
 ### Policy lable and Namespace Selector
 
-There is no policy label selector for the `tenant-2-restrict` security policy. Namespace label selectors are used to select all endpoints in the `bookinfo` namespace. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespace.   
+There are no policy label selectors for the `tenant-2-restrict` security policy. Namespace label selectors are used to select all endpoints in the `bookinfo` namespace. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespace.   
 
 ### Ingress
 
