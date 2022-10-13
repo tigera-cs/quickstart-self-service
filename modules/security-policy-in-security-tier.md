@@ -123,10 +123,12 @@ The `tenant-2-restrict` security policy has the following egress rules.
 03. **Rule 2** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is sent **to** TCP port 80 or 443.
 04. **Rule 3** - For endpoints in tenant-2, deny all other egress traffic.
 
-
+### Security Policy - UI View
 > `tenant-2-restrict` security policy - UI view
 
 ![tenant-2-restrict](images/quickstart-self-service-tenant-2-restrict.png)
+
+### Security Policy - Manifest
 
 > `tenant-2-restrict` security policy - yaml
 
@@ -208,10 +210,12 @@ The `security-default-pass` security policy has the following egress rules.
 
 01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all egress traffic. 
 
+### Security Policy - UI View
 > `security-default-pass` security policy - UI view
 
 ![security-default-pass](images/quickstart-self-service-security-default-pass.png)
 
+### Security Policy - Manifest
 > `security-default-pass` security policy - yaml
 ```yaml
 apiVersion: projectcalico.org/v3
