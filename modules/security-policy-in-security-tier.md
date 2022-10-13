@@ -106,7 +106,7 @@ Validate the endpoints selected by the `tenant-1-restrict` security policy by cl
 
 There is no policy label selector for the `tenant-2-restrict` security policy. Namespace label selectors are used to select all endpoints in the `bookinfo` namespace. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespace.   
 
-## Ingress
+### Ingress
 
 The `tenant-2-restrict` security policy has the following ingress rules. 
 
@@ -114,7 +114,7 @@ The `tenant-2-restrict` security policy has the following ingress rules.
 02. **Rule 1** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is **from** any endpoint in the `ingress-nginx` namespace.
 03. **Rule 2** - For endpoints in tenant-1, deny all other ingress traffic.
 
-## Egress
+### Egress
 
 The `tenant-2-restrict` security policy has the following egress rules. 
 
@@ -194,16 +194,25 @@ Validate the endpoints selected by the `tenant-2-restrict` security policy by cl
 
 There are no policy label or namespace label selectors in the `security-default-pass` security policy. The security policy will match all cluster endpoints. However, the security policy will not be applicable to tenant-1 and tenant-2 workloads in the `hipstershop` , `yaobank` and `bookinfo` namespaces respectively. For these workloads the `tenant-1-restrict` and `tenant-2-restrict` security policies will take a higher precendence and will either pass traffic to subsequent tiers for evaluation or deny traffic. As a result, the `security-default-pass` security policy will never be evaluated for those endpoints. 
 
-*Refer [Lesson 2 - The Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-tier.md) for more details.*
+*Refer [Module 3, Lesson 2 - The Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-tier.md) for more details.*
 
-## Ingress
+### Ingress
 
 The `security-default-pass` security policy has the following ingress rules. 
 
-01. **Rule 0** - 
+01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all ingress traffic. 
 
+### Egress
+
+The `security-default-pass` security policy has the following egress rules. 
+
+01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all egress traffic. 
+
+> `security-default-pass` security policy - UI view
 
 ![security-default-pass](images/quickstart-self-service-security-default-pass.png)
+
+> `security-default-pass` security policy - yaml
 ```yaml
 apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
