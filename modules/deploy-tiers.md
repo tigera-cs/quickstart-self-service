@@ -56,6 +56,6 @@ spec:
 ![policies board](images/policiesboard.png)
 
 
-## Lesson Video
+# Lesson Video
 
 [![deploy tiers](images/vdspt.png)](https://tigera.wistia.com/medias/9qdjr5onoj)
