@@ -1,6 +1,6 @@
 # The Application Tier
 
-![yaobank-allow](images/application-tier.png)
+![application-tier](images/application-tier.png)
 
 ## `yaobank-allow` Security Policy
 
