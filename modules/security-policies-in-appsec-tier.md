@@ -445,6 +445,8 @@ spec:
 
 ### Validate Endpoints
 
+Validate the endpoints selected by the `currencyservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `currencyservice` workload are selected for the security policy. 
+
 ![currencyservice-gif](images/currencyservice-gif.gif)
 
 ## `emailservice` Security Policy
@@ -499,7 +501,7 @@ spec:
 
 ### Validate Endpoints
 
-Validate the endpoints selected by the `cartservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `cartservice` workload are selected for the security policy. 
+Validate the endpoints selected by the `emailservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `emailservice` workload are selected for the security policy. 
 
 ![emailservice-gif](images/emailservice-gif.gif)
 
@@ -552,7 +554,7 @@ spec:
 
 ### Validate Endpoints
 
-Validate the endpoints selected by the `cartservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `cartservice` workload are selected for the security policy. 
+Validate the endpoints selected by the `paymentservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `paymentservice` workload are selected for the security policy. 
 
 ## `productcatalogservice` Security Policy
 
