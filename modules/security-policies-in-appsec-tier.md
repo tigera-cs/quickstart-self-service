@@ -291,10 +291,15 @@ The `checkoutservice` security policy has the following ingress rules.
 The `frontend` security policy has the following egress rules.
 
 01. **Rule 0** - For the `checkoutservice` endpoints, allow egress on TCP port 9555 to the `paymentservice` endpoints. The `app == paymentservice` endpoint selector is used to specify the destination workloads.  
+
 02. **Rule 1** - For the `checkoutservice` endpoints, allow egress on TCP port 3550 to the `productcatalogservice` endpoints. The  `app == productcatalogservice` endpoint selector is used to specify the destination workloads.
+
 03. **Rule 2** - For the `checkoutservice` endpoints, allow egress on TCP port 50051 to the `shippingservice` endpoints. The   `app == shippingservice` endpoint selector is used to specify the destination workloads.  
+
 04. **Rule 3** - For the `checkoutservice` endpoints, allow egress on TCP port 7070 to the `cartservice` endpoints. The `app == cartservice` endpoint selector is used to specify the destination workloads. 
+
 05. **Rule 4** - For the `checkoutservice` endpoints, allow egress on TCP port 7000 to the `currencyservice` endpoints. The  `app == currencyservice` endpoint selector is used to specify the destination workloads.  
+
 06. **Rule 5** - For the `checkoutservice` endpoints, allow egress on TCP port 8080 to the `emailservice` endpoints. The  `app == emailservice` endpoint selector is used to specify the destination workloads.  
 
 ### Security Policy - UI View
