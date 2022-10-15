@@ -113,7 +113,7 @@ spec:
 
 ### Validate Endpoints
 
-Validate the endpoints selected by the `frontend ` security policy by clicking on the number of endpoints in UI view. In the output below, a single endpoints was selected for the `frontend` security policy. 
+Validate the endpoints selected by the `frontend ` security policy by clicking on the number of endpoints in UI view. The output below shows that the `frontend` workload was selected for the security policy. 
 
 ![frontend-gif](images/frontend-gif.gif)
 
@@ -160,6 +160,8 @@ spec:
 
 
 ### Validate Endpoints
+
+![adservice-gif](images/adservice-gif.gif)
 
 ## `cartservice` Security Policy
 
@@ -307,6 +309,8 @@ spec:
 
 ### Validate Endpoints
 
+![checkoutservice-gif](images/checkoutservice-gif.gif)
+
 ## `currencyservice` Security Policy
 
 ### Policy lable and Namespace Selector
@@ -357,6 +361,8 @@ spec:
 
 ### Validate Endpoints
 
+![currencyservice-gif](images/currencyservice-gif.gif)
+
 ## `emailservice` Security Policy
 
 ### Policy lable and Namespace Selector
@@ -400,6 +406,8 @@ spec:
 ```
 
 ### Validate Endpoints
+
+![emailservice-gif](images/emailservice-gif.gif)
 
 ## `paymentservice` Security Policy
 
@@ -501,6 +509,8 @@ spec:
 
 ### Validate Endpoints
 
+![checkoutservice-gif](images/checkoutservice-gif.gif)
+
 ## `recommendationservice` Security Policy
 
 ### Policy lable and Namespace Selector
@@ -573,6 +583,8 @@ spec:
 
 ### Validate Endpoints
 
+![loadgenerator-gif](images/loadgenerator-gif.gif)
+
 ## `redis-cart` Security Policy
 
 ### Policy lable and Namespace Selector
@@ -615,6 +627,9 @@ spec:
 ```
 
 ### Validate Endpoints
+
+![rediscart-gif](images/rediscart-gif.gif)
+
 
 ## `shippingservice` Security Policy
 
@@ -665,3 +680,5 @@ spec:
 ```
 
 ### Validate Endpoints
+
+![shipping](images/shipping-gif.gif)
