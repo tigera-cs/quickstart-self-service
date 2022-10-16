@@ -5,7 +5,7 @@
 
 ## `frontend` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == frontned` policy label selector is used in the `frontend` security policy; this ensures that the security policy is only applied to the `frontend` workload. 
 
@@ -145,7 +145,7 @@ Validate the endpoints selected by the `frontend ` security policy by clicking o
 
 ## `adservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == adservice` policy label selector is used in the `adservice` security policy; this ensures that the security policy is only applied to the `adservice` workload. 
 
@@ -201,7 +201,7 @@ Validate the endpoints selected by the `adservice` security policy by clicking o
 
 ## `cartservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == cartservice` policy label selector is used in the `cartservice` security policy; this ensures that the security policy is only applied to the `cartservice` workload. 
 
@@ -276,7 +276,7 @@ Validate the endpoints selected by the `cartservice` security policy by clicking
 
 ## `checkoutservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == checkoutservice` policy label selector is used in the `checkoutservice` security policy; this ensures that the security policy is only applied to the `checkoutservice` workload. 
 
@@ -387,7 +387,7 @@ Validate the endpoints selected by the `checkoutservice` security policy by clic
 
 ## `currencyservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == currencyservice` policy label selector is used in the `currencyservice` security policy; this ensures that the security policy is only applied to the `currencyservice` workload. 
 
@@ -451,7 +451,7 @@ Validate the endpoints selected by the `currencyservice` security policy by clic
 
 ## `emailservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == emailservice` policy label selector is used in the `emailservice` security policy; this ensures that the security policy is only applied to the `emailservice` workload. 
 
@@ -507,7 +507,7 @@ Validate the endpoints selected by the `emailservice` security policy by clickin
 
 ## `paymentservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == paymentservice` policy label selector is used in the `paymentservice` security policy; this ensures that the security policy is only applied to the `paymentservice` workload. 
 
@@ -558,7 +558,7 @@ Validate the endpoints selected by the `paymentservice` security policy by click
 
 ## `productcatalogservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == productcatalogservice` policy label selector is used in the `productcatalogservice` security policy; this ensures that the security policy is only applied to the `productcatalogservice` workload. 
 
@@ -629,7 +629,7 @@ Validate the endpoints selected by the `productcatalogservice` security policy b
 
 ## `recommendationservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == recommendationservice` policy label selector is used in the `recommendationservice` security policy; this ensures that the security policy is only applied to the `recommendationservice` workload. 
 
@@ -693,7 +693,7 @@ Validate the endpoints selected by the `recommendationservice` security policy b
 
 ## `loadgenerator` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == loadgenerator` policy label selector is used in the `loadgenerator` security policy; this ensures that the security policy is only applied to the `loadgenerator` workload. 
 
@@ -748,7 +748,7 @@ Validate the endpoints selected by the `loadgenerator` security policy by clicki
 
 ## `redis-cart` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == redis-cart` policy label selector is used in the `redis-cart` security policy; this ensures that the security policy is only applied to the `redis-cart` workload. 
 
@@ -804,7 +804,7 @@ Validate the endpoints selected by the `redis-cart` security policy by clicking 
 
 ## `shippingservice` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label selector
 
 The `app == shippingservice` policy label selector is used in the `shippingservice` security policy; this ensures that the security policy is only applied to the `shippingservice` workload. 
 
