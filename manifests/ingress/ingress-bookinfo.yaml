@@ -14,5 +14,5 @@
                 service:
                   name: productpage
                   port:
-                    number: 80
+                    number: 9080
               path: /

@@ -54,6 +54,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
    - [Lesson 10 - Security Policies in the Platform Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-in-platform-tier.md)
    - [Lesson 11 - Security Policies in the Application Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policies-in-application-tier.md)
    - [Lesson 12 - Security Policies in the Appsec Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policies-in-appsec-tier.md)
+   - [Lesson x - Validate Security Policies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-security-policies.md)
 
 ####  **4. Step 4 - Enforce Default Deny for Applications**
    - [Lesson - 13 - Enforce Default Deny for Application Namespaces](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/enforce-default-deny.md)

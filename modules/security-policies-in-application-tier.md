@@ -23,7 +23,7 @@ The `tenant-02-bookinfo-allow` security policy has the following egress rules.
 
 01. **Rule 0** - For all endpoints in the `bookinfo` namespaces, allow all egress traffic to all other endpoints in the same (`bookinfo`) namespace. 
 
-02. **Rule 1** - For the `ratings` endpoints, allow egress traffic to the `ubuntu` `globalnetworkset` on port 443. The `app == ratings` endpoint selector is used to specify the source workload and the `ubuntu == true` endpoint selector is used in the rule to specify the destination `globalnetworkset`. Note that the destination  namespace selector is specified as `global()` since the desitnation is a `globalnetworkset`. 
+02. **Rule 1** - For the `ratings` endpoints, allow egress traffic to the `ubuntu` `globalnetworkset` on TCP port 443. The `app == ratings` endpoint selector is used to specify the source workload and the `ubuntu == true` endpoint selector is used in the rule to specify the destination `globalnetworkset`. Note that the destination  namespace selector is specified as `global()` since the desitnation is a `globalnetworkset`. 
 
  
 ### Security Policy - UI View
@@ -76,9 +76,9 @@ spec:
   types:
     - Ingress
     - Egress
-
-
 ```
+
+### Validate Endpoints
 
 ## `tenant-1-yaobank-allow` Security Policy
 
@@ -102,7 +102,7 @@ The `tenant-1-yaobank-allow` security policy has the following egress rules.
 
 01. **Rule 0** - For all endpoints in the `yaobank` namespaces, allow all egress traffic to all other endpoints in the same (`yaobank`) namespace. 
 
-02. **Rule 1** - For the `customer` endpoints, allow egress traffic to the `bloomberg` `globalnetworkset` on port 443. The `app == customer` endpoint selector is used to specify the source workload and the `bloomberg == true` endpoint selector is used in the rule to specify the destination `globalnetworkset`. Note that the destination  namespace selector is specified as `global()` since the desitnation is a `globalnetworkset`. 
+02. **Rule 1** - For the `customer` endpoints, allow egress traffic to the `bloomberg` `globalnetworkset` on TCP port 443. The `app == customer` endpoint selector is used to specify the source workload and the `bloomberg == true` endpoint selector is used in the rule to specify the destination `globalnetworkset`. Note that the destination  namespace selector is specified as `global()` since the desitnation is a `globalnetworkset`. 
 
 ### Security Policy - UI View
 
@@ -153,3 +153,5 @@ spec:
     - Ingress
     - Egress
 ```
+
+### Validate Endpoints
