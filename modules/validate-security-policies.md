@@ -5,6 +5,10 @@
 
 ### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
 
+The `Pass: Any Protocol` ingress and egress rule metrics indicate that there is no traffic matching these rules. Traffic metrics can be seen for all other `pass` rules in the `tenant-1-pass-all` security policy. 
+
+> tenant-1-pass-all security policy
+
 ![evaluate-tenant-1-pass-all-gif](images/evaluate-tenant-1-pass-all.png)
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Ingress Rule
