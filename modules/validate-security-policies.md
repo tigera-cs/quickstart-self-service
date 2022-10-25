@@ -3,7 +3,7 @@
 ## `tenant-1-pass-all` Security Policy
 
 
-### Evaluate Rule Metrics
+### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
 
 ![evaluate-tenant-1-pass-all-gif](images/evaluate-tenant-1-pass-all.png)
 
@@ -20,12 +20,19 @@
 ![kibana-src-tenant-1-pass-all](images/kibana-src-tenant-1-pass-all.png)
 
 
-
-
-
 ## `tenant-2-pass-all` Security Policy
 
+### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
+
 ![evaluate-tenant-2-pass-all-gif](images/evaluate-tenant-2-pass-all.png)
+
+### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Ingress Rule
+
+### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Egress Rule
+
+> `reporter: "src" and policies:{all_policies:*tenant-2-pass-all|pass|2*}`
+
+![kibana-src-tenant-2-pass-all](images/kibana-src-tenant-2-pass-all.png)
 
 
 ## `tenant-1-default-allow` Security Policy
