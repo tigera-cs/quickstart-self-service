@@ -67,6 +67,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
    - [Lesson 17 - Using Flow Vizualization to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/fv-denied-flows.md)
    - [Lesson 18 - Using Kibana to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/kibana-denied-flows.md)
    - [Lesson 19 - Remediate Security Policies to Permit Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/remediate-security-policies.md)
+   - [Lesson 20 - Validate Remediated Security Policlies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-remediate-security-policies.md)
 
 ### **05. Module 5 - Expanding the Security Policy Framework**
 
