@@ -1,4 +1,9 @@
+
 # Security Policies in the Default Tier
+
+Go to - [Go to Real Cool Heading section](#-Lesson-Lab-Tasks)
+
+# Explanation
 
 In step 3 of the methodology for implementing zero-trust micro-segmentation, default-allow security policies called `tenant-01-default-allow` and `tenant-02-default-allow` will be deployed for tenant-01 and tenant-02 respectively. The objective is to develop all security policies for the tenant workloads and ensure that no traffic flows match the default-allow security policy before enforcing default-deny security policy for the tenants in [step 4](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/enforce-default-deny.md). The workshops assumes that security policies are developed for a live environment and this approach ensures that workloads are not impacted due to missing or misconfigured security policies. 
 
@@ -130,3 +135,7 @@ spec:
 Validate the endpoints selected by the `tenant-2-default-allow` security policy by clicking on the number of endpoints in UI view. In the output below, all endpoints belong to the `bookinfo` namespace. 
 
 ![endpoints-tenant-2-default-allow](images/endpoints-tenant-2-default-allow.png)
+
+# Lesson Lab Tasks
+
+# Lesson Video
