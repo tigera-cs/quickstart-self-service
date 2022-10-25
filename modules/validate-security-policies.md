@@ -3,12 +3,11 @@
 In this lesson, the below mentioned security policies created in the previous lessons will be evaluated prior to enforcing the default deny posture for the application namespaces. The objective is to ensure that all flows are factors in security policy rules thus far created so that enforcing the default deny posture will not distrupt application behavior. Security policy metrics and Kibana will be used to check for flows matching the `Pass: Any Protocol` rule in the `tenant-1-pass-all` and `tenant-2-pass-all` security policy. The same will be used to validate that no flows match the `tenant-1-default-allow` and `tenant-2-default-allow` security policies. If flows are being matched in the rules/security policies above, they must be remediated prior to enforcing the default deny posture. 
 
 > tenant-1-pass-all
-> tenant-2-pass-all
-> tenent-1-default-allow
-> tenant-2-default-allow
+tenant-2-pass-all
+tenent-1-default-allow
+tenant-2-default-allow
 
 ## `tenant-1-pass-all` Security Policy
-
 
 ### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
 
@@ -30,7 +29,6 @@ The `Pass: Any Protocol` ingress and egress rule metrics indicate that there is 
 
 ![kibana-src-tenant-1-pass-all](images/kibana-src-tenant-1-pass-all.png)
 
-
 ## `tenant-2-pass-all` Security Policy
 
 ### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
@@ -38,6 +36,10 @@ The `Pass: Any Protocol` ingress and egress rule metrics indicate that there is 
 ![evaluate-tenant-2-pass-all-gif](images/evaluate-tenant-2-pass-all.png)
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Ingress Rule
+
+> `reporter: "dst" and policies:{all_policies:*tenant-2-pass-all|pass|2*}`
+
+![kibana-dst-tenant-2-pass-all](images/kibana-dst-tenant-2-pass-all.png)
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Egress Rule
 
