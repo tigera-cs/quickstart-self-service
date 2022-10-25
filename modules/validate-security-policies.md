@@ -32,7 +32,19 @@
 
 ![evaluate-tenant-1-default-allow.png](images/evaluate-tenant-1-default-allow.png)
 
+### Evaluate Kibana Flow Logs for `tenant-2-default-allow` Security Policy
+
+> `policies:{all_policies:*tenant-1-default-allow*}`
+
+![kibana-tenant-1-default-allow.png](images/kibana-tenant-1-default-allow.png)
+
 
 ## `tenant-2-default-allow` Security Policy
 
 ![evaluate-tenant-2-default-allow.png](images/evaluate-tenant-2-default-allow.png)
+
+### Evaluate Kibana Flow Logs for `tenant-2-default-allow` Security Policy
+
+> `policies:{all_policies:*tenant-2-default-allow*}`
+
+![kibana-tenant-2-default-allow.png](images/kibana-tenant-2-default-allow.png)
