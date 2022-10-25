@@ -1,7 +1,7 @@
 
 # Security Policies in the Default Tier
 
-Go to - [Go to Real Cool Heading section](#-Lesson-Lab-Tasks)
+[Go to Lesson Lab Tasks](#Lesson-Lab-Tasks)
 
 # Explanation
 
