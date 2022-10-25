@@ -3,9 +3,13 @@
 In this lesson, the below mentioned security policies created in the previous lessons will be evaluated prior to enforcing the default deny posture for the application namespaces. The objective is to ensure that all flows are factors in security policy rules thus far created so that enforcing the default deny posture will not distrupt application behavior. Security policy metrics and Kibana will be used to check for flows matching the `Pass: Any Protocol` rule in the `tenant-1-pass-all` and `tenant-2-pass-all` security policy. The same will be used to validate that no flows match the `tenant-1-default-allow` and `tenant-2-default-allow` security policies. If flows are being matched in the rules/security policies above, they must be remediated prior to enforcing the default deny posture. 
 
 > tenant-1-pass-all
-tenant-2-pass-all
-tenent-1-default-allow
-tenant-2-default-allow
+
+> tenant-2-pass-all
+
+> tenent-1-default-allow
+
+> tenant-2-default-allow
+
 
 ## `tenant-1-pass-all` Security Policy
 
