@@ -4,3 +4,4 @@ In this lesson a `monitoring-pod` will be deployed to query the `productpage`, `
 
 `kubectl create namespace monitoring`
 
+![new-flow-frontend.gif](images/new-flow-frontend.gif)
