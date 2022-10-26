@@ -141,3 +141,7 @@ spec:
     - Ingress
     - Egress
 ```
+
+# Lesson Video
+
+[![sg-views-layers](images/vedd.png)](https://tigera.wistia.com/medias/nyvmnpsbu1)

@@ -24,3 +24,4 @@ Create a layer called "tigera" and add the below namespaces.
 ## Lesson Video
 
 [![sg-views-layers](images/vsgvl.png)](https://tigera.wistia.com/medias/if9ccnwrdp)
+
