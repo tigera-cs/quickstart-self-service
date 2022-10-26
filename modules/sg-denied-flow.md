@@ -12,3 +12,6 @@
 
 ![sg-monitoring-bookfino-deny-gif](images/sg-monitoring-bookinfo-deny.gif)
 
+# Lesson Video
+
+[![sg-denied-flows](images/sgdd.png)](https://tigera.wistia.com/medias/88j386d49p)
