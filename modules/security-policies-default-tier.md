@@ -72,6 +72,12 @@ Validate the endpoints selected by the `tenant-1-default-allow` security policy 
 
 ![endpoints-tenant-1-default-allow](images/endpoints-tenant-1-default-allow.png)
 
+### Validate Service Graph Security Policy Evaluation
+
+![tenant-1-sg-default-allow](images/sg-default-allow.gif)
+
+### Validate Flow Visualization Security Policy Evaluation
+
 
 ## `tenant-02-default-allow` Security Policy
 
@@ -133,6 +139,10 @@ spec:
 Validate the endpoints selected by the `tenant-2-default-allow` security policy by clicking on the number of endpoints in UI view. In the output below, all endpoints belong to the `bookinfo` namespace. 
 
 ![endpoints-tenant-2-default-allow](images/endpoints-tenant-2-default-allow.png)
+
+### Validate Service Graph Security Policy Evaluation
+
+![tenant-1-sg-default-allow-2](images/sg-default-allow-2.gif)
 
 # Lesson Lab Tasks
 
