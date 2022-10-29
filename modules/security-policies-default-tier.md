@@ -78,6 +78,9 @@ Validate the endpoints selected by the `tenant-1-default-allow` security policy 
 
 ### Validate Flow Visualization Security Policy Evaluation
 
+![tenant-1-fv-default-allow](images/fv-default-allow.gif)
+
+
 
 ## `tenant-02-default-allow` Security Policy
 
