@@ -147,6 +147,10 @@ Validate the endpoints selected by the `tenant-2-default-allow` security policy 
 
 ![tenant-1-sg-default-allow-2](images/sg-default-allow-2.gif)
 
+### Validate Flow Visualization Security Policy Evaluation
+
+![tenant-1-fv-default-allow-2](images/fv-default-allow-2.gif)
+
 # Lesson Lab Tasks
 
 # Lesson Video
