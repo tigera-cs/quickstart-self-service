@@ -170,7 +170,7 @@ The `tenant-2-pass-all` security policy has the following ingress rules.
 
 01. **Rule 0** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is **from** any endpoint in the `bookinfo` namespaces. 
 02. **Rule 1** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is **from** any endpoint in the `ingress-nginx` namespace.
-03. **Rule 2** - For endpoints in tenant-1, deny all other ingress traffic.
+03. **Rule 2** - For endpoints in tenant-2, pass all other ingress traffic.
 
 ### Egress
 
@@ -179,7 +179,7 @@ The `tenant-2-pass-all` security policy has the following egress rules.
 01. **Rule 0** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is sent **to** any endpoint in the `bookinfo` namespace. 
 02. **Rule 1** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is sent **to** UDP port 53.
 03. **Rule 2** - For endpoints in tenant-2, pass security policy evaluation to subsequent tiers if traffic is sent **to** TCP port 80 or 443.
-04. **Rule 3** - For endpoints in tenant-2, deny all other egress traffic.
+04. **Rule 3** - For endpoints in tenant-2, pass all other egress traffic.
 
 ### Security Policy - UI View
 > `tenant-2-pass-all` security policy - UI view

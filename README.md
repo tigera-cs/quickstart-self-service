@@ -82,5 +82,6 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 
 Notes 
 - source and destination reporting
+- kibana filtering based on index
      
 
