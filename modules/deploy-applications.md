@@ -1,11 +1,10 @@
 # Deploy Applications
 
-## `yaobank` Application
+> ### Quick Access - [Lesson Lab Tasks](#Lesson-Lab-Tasks) 
 
-## `bookinfo` Application
+## `tenant-1 hipstershop` Application
 
-## `hipstershop` Application
-
+### Pods
 ```bash
 tigera@amp ~ % kubectl get pods -n hipstershop 
 NAME                                     READY   STATUS    RESTARTS   AGE
@@ -23,6 +22,8 @@ redis-cart-68579dffcd-wbx5x              1/1     Running   0          8d
 shippingservice-7f6f45cf4-vhnxw          1/1     Running   0          8d
 ```
 
+### Services
+
 ```bash
 tigera@amp ~ % kubectl get services -n hipstershop
 NAME                    TYPE           CLUSTER-IP     EXTERNAL-IP    PORT(S)        AGE
@@ -37,3 +38,50 @@ productcatalogservice   ClusterIP      10.0.133.139   <none>         3550/TCP   
 recommendationservice   ClusterIP      10.0.197.145   <none>         8080/TCP       8d
 redis-cart              ClusterIP      10.0.127.118   <none>         6379/TCP       8d
 shippingservice         ClusterIP      10.0.30.23     <none>         50051/TCP      8d
+```
+
+## `tenant-1 yaobank` Application
+
+### Pods
+
+```bash
+tigera@amp ~ % kubectl get pods -n yaobank
+NAME                        READY   STATUS    RESTARTS   AGE
+customer-687b8d8f74-kjrw8   1/1     Running   0          9d
+database-545f6d6d95-xt4kw   1/1     Running   0          9d
+summary-7579bd9566-shm7c    1/1     Running   0          26d
+summary-7579bd9566-vx95t    1/1     Running   0          9d
+```
+
+### Services
+
+
+## `tenant-2 bookinfo` Application
+
+### Pods
+
+```bash
+tigera@amp ~ % kubectl get pods -n bookinfo
+NAME                              READY   STATUS    RESTARTS   AGE
+details-v1-5498c86cf5-n7rj8       1/1     Running   0          12d
+productpage-v1-65b75f6885-l7n5p   1/1     Running   0          12d
+ratings-v1-b477cf6cf-q7st8        1/1     Running   0          12d
+reviews-v1-79d546878f-nkkv2       1/1     Running   0          12d
+reviews-v2-548c57f459-wdz99       1/1     Running   0          12d
+reviews-v3-6dd79655b9-fjt5b       1/1     Running   0          12d
+```
+
+### Services
+
+```bash
+tigera@amp ~ % kubectl get services -n bookinfo
+NAME          TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
+details       ClusterIP   10.0.51.237    <none>        9080/TCP   26d
+productpage   ClusterIP   10.0.119.151   <none>        9080/TCP   26d
+ratings       ClusterIP   10.0.23.19     <none>        9080/TCP   26d
+reviews       ClusterIP   10.0.235.15    <none>        9080/TCP   26d
+```
+
+# Lesson Lab Tasks
+
+# Lesson Video
