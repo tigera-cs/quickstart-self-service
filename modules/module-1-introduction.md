@@ -10,8 +10,7 @@ The following lab will be used
 
 The below namespaces are for `tenant-1`
 > `hipstershop`
-
-> `yaobank`
+ `yaobank`
 
 
 
