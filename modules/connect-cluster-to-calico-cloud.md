@@ -47,3 +47,6 @@ Navigate to the `Service Graph` to confirm that flow logs from the cluster are v
 Follow the lesson video to complete the lab tasks. 
 
 # Lesson Video
+
+
+#### <div align="right">  [Click Next -> Lesson 2 - Deploy Applications](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/deploy-applications.md) </div>
