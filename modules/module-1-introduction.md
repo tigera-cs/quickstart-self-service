@@ -19,5 +19,5 @@ The below namespaces are for `tenant-1`
 The below namespace is for `tenant-2`
 - `bookinfo`
 
-#### [ Click Next -> Lesson 1 - Connect Cluster to Calico Cloud](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/connect-cluster-to-calico-cloud.md)
+#### <div align="right">  [ Click Next -> Lesson 1 - Connect Cluster to Calico Cloud](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/connect-cluster-to-calico-cloud.md) </div>
 
