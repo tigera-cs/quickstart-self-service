@@ -11,11 +11,11 @@ The following lab will be used in this course. The lab has three namespaces: `hi
 ### `tenant-1`
 
 The below namespaces are for `tenant-1`
-> `hipstershop`
-> `yaobank`
+- `hipstershop`
+- `yaobank`
 
 ### `tenant-2`
 
 The below namespace is for `tenant-2`
-> `bookinfo`
+- `bookinfo`
 
