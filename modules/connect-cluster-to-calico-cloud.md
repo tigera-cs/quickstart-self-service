@@ -48,5 +48,7 @@ Follow the lesson video to complete the lab tasks.
 
 # Lesson Video
 
+[![connect-cluster-cc](images/cccc.png)](https://tigera.wistia.com/medias/zs6oc6j1uj)
+
 
 #### <div align="right">  [Click Next -> Lesson 2 - Deploy Applications](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/deploy-applications.md) </div>
