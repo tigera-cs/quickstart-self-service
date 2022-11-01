@@ -84,4 +84,21 @@ reviews       ClusterIP   10.0.235.15    <none>        9080/TCP   26d
 
 # Lesson Lab Tasks
 
+1. Apply manifest to create namespaces
+
+`kubectl apply -f apps/namespaces.yaml`
+
+2. Apply manifest to create hipstershop application
+
+`kubectl apply -f apps/hipstershop.yaml`
+
+3. Apply manifest to create yaobank application
+
+`kubectl apply -f apps/yaobank.yaml`
+
+4. Apply manifest to create bookinfo application
+
+`kubectl apply -f apps/bookinfo.yaml`
+
+
 # Lesson Video
