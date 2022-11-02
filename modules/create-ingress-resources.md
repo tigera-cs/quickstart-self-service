@@ -37,6 +37,9 @@ NAME               CLASS   HOSTS                 ADDRESS         PORTS   AGE
 ingress-frontend   nginx   www.hipstershop.com   20.221.88.154   80      29d
 ```
 
+![request-hipstershop](images/request-hipstershop.png)
+
+![hipstershop](images/hipstershop.png)
 
 
 ## Create ingress for `yaobank`
@@ -69,6 +72,10 @@ tigera@amp ~ % kubectl get ingress -n yaobank
 NAME              CLASS   HOSTS             ADDRESS         PORTS   AGE
 ingress-yaobank   nginx   www.yaobank.com   20.221.88.154   80      29d
 ```
+
+![request-yaobank](images/request-yaobank.png)
+
+![yaobank](images/yaobank.png)
 
 ## Create ingress for `bookinfo`
 
