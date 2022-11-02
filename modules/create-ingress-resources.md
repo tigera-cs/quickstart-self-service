@@ -67,6 +67,8 @@ ingress-frontend   nginx   www.hipstershop.com   20.221.88.154   80      29d
               path: /
 ```
 
+> ingress for `www.yaobank.com`
+
 ```bash
 tigera@amp ~ % kubectl get ingress -n yaobank    
 NAME              CLASS   HOSTS             ADDRESS         PORTS   AGE
