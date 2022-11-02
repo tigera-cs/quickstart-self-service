@@ -22,6 +22,6 @@
 
 ## Denied flow from `ratings`
 
-![fv-ratings-deny.gif](images/fv-ratings-deny.gif)
+![fv-ratings-deny.gif](images/fv-ratings-pub-deny.gif)
 
 # Lesson Video
