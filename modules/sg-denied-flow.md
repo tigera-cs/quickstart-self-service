@@ -14,11 +14,11 @@
 
 ![sg-monitoring-bookfino-deny-gif](images/sg-monitoring-bookinfo-deny.gif)
 
-## Denied flow from `loadgeneratorv2`
+# Denied flow from `loadgeneratorv2`
 
 ![sg-loadgeneratorv2-deny-gif](images/sg-loadgeneratorv2-deny.gif)
 
-## Denied flow from `ratings`
+# Denied flow from `ratings`
 
 ![sg-ratings-deny-gif](images/sg-ratings-deny.gif)
 
