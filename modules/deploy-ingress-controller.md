@@ -1,5 +1,7 @@
 # Deploy Ingress Controller
 
+> ### Quick Access - [Lesson Lab Tasks](#Lesson-Lab-Tasks) 
+
 In this lesson an ingress controller will be deployed to the cluster. An ingress controller will faciliate the creation of ingress resources to access the applications deployed in the previous lesson. In the ingress will be deployed using the below manifest; however, you can deploy an ingress controller of your choosing. 
 
 ```yaml
@@ -40,3 +42,5 @@ kubectl get all -n ingress-nginx
 ```
 
 # Lesson Video
+
+#### <div align="right">  [Click Next -> Lesson 4 - Create Ingress Resources for Applications](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/create-ingress-resources.md) </div>
