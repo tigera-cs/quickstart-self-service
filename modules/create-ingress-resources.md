@@ -37,7 +37,11 @@ NAME               CLASS   HOSTS                 ADDRESS         PORTS   AGE
 ingress-frontend   nginx   www.hipstershop.com   20.221.88.154   80      29d
 ```
 
+> Modify header for `www.hipstershop.com`
+
 ![request-hipstershop](images/request-hipstershop.png)
+
+> Browse to `www.hipstershop.com`
 
 ![hipstershop](images/hipstershop.png)
 
@@ -75,7 +79,11 @@ NAME              CLASS   HOSTS             ADDRESS         PORTS   AGE
 ingress-yaobank   nginx   www.yaobank.com   20.221.88.154   80      29d
 ```
 
+> Modify header for `www.yaobank.com`
+
 ![request-yaobank](images/request-yaobank.png)
+
+> Browse to `www.yaobank.com`
 
 ![yaobank](images/yaobank.png)
 
@@ -107,7 +115,11 @@ tigera@amp ~ % kubectl get ingress -n bookinfo
 NAME                  CLASS   HOSTS              ADDRESS         PORTS   AGE
 ingress-productpage   nginx   www.bookinfo.com   20.221.88.154   80      29d
 ```
+> Modify header for `www.bookinfo.com`
+
 ![request-bookinfo](images/request-bookinfo.png)
+
+> Browse to `www.bookfino.com`
 
 ![bookinfo](images/bookinfo.png)
 
@@ -132,6 +144,16 @@ kubectl get ingress -n hipstershop
 kubectl get ingress -n yaobank 
 kubectl get ingress -n bookinfo
 ```
+
+### `curl` to the ingress
+
+```bash
+curl http://20.221.88.154/ -H "Host: www.hipstershop.com"
+curl http://20.221.88.154/ -H "Host: www.bookinfo.com"
+curl http://20.221.88.154/ -H "Host: www.yaobank.com"
+```
+
+<span style="background-color: #FF8900">Note that your IPs will be different</span>
 
 
 # Lesson Video
