@@ -72,13 +72,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 ### **05. Module 5 - Expanding the Security Policy Framework**
 
 ---
-### Quick Access to Lesson Videos
-
-
-- [Module 4 - Lesson 3 - Service Graph and Flow Visualization - Analyzing Application Flows](https://tigera.wistia.com/medias/hitppj9mjk)
-- [Module 4 - Lesson 4 - Flow Log Aggregation](https://tigera.wistia.com/medias/yhitu7fhop)
-- [Module 4 - Lesson 7 - Deploy Security Policy Tiers](https://tigera.wistia.com/medias/9qdjr5onoj)
-
+## Guide to Using the Workshop
 
 Notes 
 - source and destination reporting
