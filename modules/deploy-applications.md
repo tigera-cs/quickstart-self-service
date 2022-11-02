@@ -98,6 +98,10 @@ reviews       ClusterIP   10.0.235.15    <none>        9080/TCP   26d
 
 ### Apply manifest to create bookinfo application
 
+
+`kubectl apply -f apps/namespaces.yaml`
+`kubectl apply -f apps/hipstershop.yaml`
+`kubectl apply -f apps/yaobank.yaml`
 `kubectl apply -f apps/bookinfo.yaml`
 
 
