@@ -77,5 +77,13 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 Notes 
 - source and destination reporting
 - kibana filtering based on index
-     
+
+---
+## Quick Access - Lesson Videos
+
+[1.1 - Connect Cluster to Calico Cloud](https://tigera.wistia.com/medias/zs6oc6j1uj)
+[1.2 - Deploy Applications]()
+
+[4.1 - Service Graph - Views and Layers]()
+[4.2 - Flow Log Aggregation]()
 
