@@ -93,4 +93,11 @@ kubectl apply -f apps/yaobank.yaml
 kubectl apply -f apps/bookinfo.yaml
 ```
 
+### Validate resources
+```yaml
+kubectl get all -n hipstershop
+kubectl get all -n yaobank
+kubectl get all -n bookinfo
+```
+
 # Lesson Video
