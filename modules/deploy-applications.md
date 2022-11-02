@@ -101,3 +101,6 @@ kubectl get all -n bookinfo
 ```
 
 # Lesson Video
+
+
+#### <div align="right">  [Click Next -> Lesson 3 - Deploy Ingress Controller](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/deploy-ingress-controller.md) </div>
