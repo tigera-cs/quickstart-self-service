@@ -18,7 +18,7 @@
 
 ![sg-loadgeneratorv2-deny-gif](images/sg-loadgeneratorv2-deny.gif)
 
-# Denied flow from `ratings`
+## Denied flow from `ratings`
 
 ![sg-ratings-deny-gif](images/sg-ratings-deny.gif)
 
