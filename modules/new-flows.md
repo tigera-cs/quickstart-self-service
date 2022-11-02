@@ -2,7 +2,7 @@
 
 In this lesson new flows will be introduced to the cluster. The objective is to observe which security policies will deny these flows and understand how the flows can be allowed in subsequent lessons.
 
-# Deploy `monitoring-pod`
+## Deploy `monitoring-pod`
 
 A `monitoring-pod` deployed in the `monitoring` namespace will be used to target the the `productpage`, `frontend`, and  `customer` microservices of the `bookinfo`, `hipstershop`, and `yaobank` namespaces respectively. 
 
@@ -41,4 +41,9 @@ Observe the `Policies Board` to identify the security policy that would deny tra
 
 ![new-flow-yaobank.gif](images/new-flow-customer.gif)
 
-# Deploy `monitoring-pod`
+# Deploy `log`
+
+
+## Filter Security Policies Denying Flows
+
+![new-flows-deny-policies.gif](images/new-flows-deny-policies.gif)
