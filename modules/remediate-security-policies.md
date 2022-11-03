@@ -1,5 +1,7 @@
 # Remediate Security Policies to Permit Denied Flows
 
+The changes made to the security policies to allow the new flows are highlighted below. 
+
 ## `tenant-1-restrict` Security Policy
 
 ### Ingress Rules
