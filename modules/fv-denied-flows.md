@@ -6,22 +6,23 @@
 
 ### `monitoring` to `hipstershop`
 
-![fv-monitoring-frontend-denygif](images/fv-monitoring-frontend-deny.gif)
+![fv-monitoring-frontend-deny.png](images/fv-monitoring-frontend-deny.png)
 
 ### `monitoring` to `yaobank`
 
-![fv-monitoring-customer-deny.gif](images/fv-monitoring-customer-deny.gif)
+![fv-monitoring-customer-deny.png](images/fv-monitoring-customer-deny.png
+)
 
 ### `monitoring` to `bookfino`
 
-![fv-monitoring-productpage-deny.gif](images/fv-monitoring-productpage-deny.gif)
+![fv-monitoring-productpage-deny.png](images/fv-monitoring-productpage-deny.png)
 
 ## Denied flow from `loadgeneratorv2`
 
-![fv-loadgenerator-deny.gif](images/fv-loadgeneratorv2-deny.gif)
+![fv-loadgenerator-deny.png](images/fv-loadgeneratorv2-deny.png)
 
 ## Denied flow from `ratings`
 
-![fv-ratings-deny.gif](images/fv-ratings-pub-deny.gif)
+![fv-ratings-deny.png](images/fv-ratings-pub-deny.png)
 
 # Lesson Video
