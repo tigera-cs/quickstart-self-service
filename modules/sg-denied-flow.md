@@ -40,6 +40,8 @@ The `monitoring` to `bookinfo` flow is denied by the below security policy.
 
 - The `tenant-2-restrict` security policy in the `security` tier.
 
+### Service Graph View
+
 > Denied `monitoring` to `bookinfo` Service Graph
 
 ![sg-monitoring-bookfino-deny-gif](images/sg-monitoring-bookinfo-deny.gif)
@@ -52,6 +54,8 @@ The `loadgeneratorv2` to `frontend` flow in the `hipstershop` namespace is denie
 
 - The `tenant-1-default-deny` security policy in the `default` tier. 
 
+### Service Graph View
+
 > Denied `loadgeneratorv2` to `frontend` Service Graph
 
 ![sg-loadgeneratorv2-deny-gif](images/sg-loadgeneratorv2-deny.gif)
@@ -63,6 +67,8 @@ The `ratings` to `www.github.com` flow is denied by the below security.
 ### Egress
 
 - The `tenant-2-bookinfo-allow` security policy in the `application` tier. 
+
+### Service Graph View
 
 > Denied `ratings`  to `www.github.com` Service Graph
 
