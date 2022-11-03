@@ -30,9 +30,17 @@ The `monitoring` to `yaobank` flow is now permitted by the below security polici
 
 - The `tenant-1-yaobank-allow` security policy in the `application` tier
 
+### Service Graph View
+
 > Remediated `monitoring` to `yaobank` Service Graph view
 
 ![sg-monitoring-yaobank-gif](images/sg-monitoring-yaobank.gif)
+
+### Flow Visualization
+
+> Remediated `monitoring` to `yaobank` Flow Visualization
+
+![fv-monitoring-yaobank-gif](images/fv-monitoring-yaobank.png)
 
 ## `monitoring` to `bookinfo`
 
