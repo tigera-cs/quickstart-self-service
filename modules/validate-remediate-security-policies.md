@@ -12,6 +12,8 @@ The `monitoring` to `hipstershop` flow is now permitted by the below security po
 
 - The `frontend` security policy in the `appsec` tier
 
+### Service Graph View
+
 > Remediated `monitoring` to `hipstershop` Service Graph view
 
 ![sg-monitoring-hipstershop-gif](images/sg-monitoring-hipstershop.gif)
@@ -44,6 +46,8 @@ The `monitoring` to `bookinfo` flow is now permitted by the below security polic
 
 - The `tenant-2-bookinfo-allow` security policy in the `application` tier
 
+### Service Graph View
+
 > Remediated `monitoring` to `bookinfo` Service Graph view
 
 ![sg-monitor-bookinfo-gif](images/sg-monitor-bookinfo.gif)
@@ -59,7 +63,9 @@ The `loadgeneratorv2` to `frontend` flow in the `hipstershop` namespace is now p
 
 ### Ingress
 
-- The `loadgenerator` security policy in the `appsec` tier
+- The `frontend` security policy in the `appsec` tier
+
+### Service Graph View
 
 > Remediated `loadgeneratorv2` to `frontend`  Service Graph view
 
@@ -75,7 +81,9 @@ The `ratings` to `www.github.com` flow is now permitted by the below security po
 
 ### Ingress
 
-- **Note** that there is no ingress security policy since the destination is external to the cluster. 
+- **Note** that there is no ingress security policy since the destination is external to the cluster.
+
+### Service Graph View
 
 > Remediated `ratings` to `www.github.com` Service Graph view
 
