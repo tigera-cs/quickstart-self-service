@@ -1,5 +1,7 @@
 # Using Flow Visualization to Identify Denied Flows
 
+> ### Quick Access - [Lesson Lab Tasks](#Lesson-Lab-Tasks) 
+
 ## Denied flow from `monitoring-pod`
 
 ![fv-monitoring-gif](images/fv-monitoring.gif)
@@ -74,5 +76,7 @@ The `ratings` to `www.github.com` flow is denied by the below security.
 > Denied `ratings`  to `www.github.com` Service Graph
 
 ![fv-ratings-deny.png](images/fv-ratings-pub-deny.png)
+
+# Lesson Lab Tasks
 
 # Lesson Video

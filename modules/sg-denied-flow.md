@@ -8,11 +8,11 @@
 
 The `monitoring` to `hipstershop` flow is denied by the below security policy.
 
-### Ingress
+#### Ingress
 
 - The `tenant-1-restrict` security policy in the `security` tier.
 
-### Service Graph View
+#### Service Graph View
 
 > Denied `monitoring` to `hipstershop` Service Graph
 
