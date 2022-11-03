@@ -2,6 +2,17 @@
 
 ## `monitoring` to `bookinfo`
 
+The `monitoring` to `bookinfo` flow is now permitted by the below security policies
+
+### Egress
+
+- The `monitoring` security policy in the `platform` tier
+
+### Ingress
+
+- The `tenant-2-bookinfo-allow` security policy in the `application` tier
+
+
 ![sg-monitor-bookinfo-gif](images/sg-monitor-bookinfo.gif)
 
 ## `monitoring` to `yaobank`
