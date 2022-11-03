@@ -51,8 +51,30 @@ The `monitoring` to `bookinfo` flow is now permitted by the below security polic
 
 ## `loadgeneratorv2` to `frontend` in the `hipstershop` namespace
 
+The `loadgeneratorv2` to `frontend` flow in the `hipstershop` namespace is now permitted by the below security policies
+
+### Egress
+
+- The `loadgenerator` security policy in the `appsec` tier
+
+### Ingress
+
+- The `loadgenerator` security policy in the `appsec` tier
+
+
 ![sg-loadgeneratorv2-frontened-gif](images/loadgeneratorv2-frontend.gif)
 
 ## `ratings` to `www.github.com`
+
+The `ratings` to `www.github.com` flow is now permitted by the below security policies
+
+### Egress
+
+- The `tenant-2-bookinfo-allow` security policy in the `application` tier
+
+### Ingress
+
+- **Note** that there is no ingress security policy since the destination is external to the cluster. 
+
 
 ![sg-ratings-github-gif](images/ratings-github.gif)
