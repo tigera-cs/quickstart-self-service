@@ -61,6 +61,7 @@ The `loadgeneratorv2` to `frontend` flow in the `hipstershop` namespace is now p
 
 - The `loadgenerator` security policy in the `appsec` tier
 
+> Remediated `loadgeneratorv2` to `frontend`  Service Graph view
 
 ![sg-loadgeneratorv2-frontened-gif](images/loadgeneratorv2-frontend.gif)
 
@@ -76,5 +77,6 @@ The `ratings` to `www.github.com` flow is now permitted by the below security po
 
 - **Note** that there is no ingress security policy since the destination is external to the cluster. 
 
+> Remediated `ratings` to `www.github.com` Service Graph view
 
 ![sg-ratings-github-gif](images/ratings-github.gif)
