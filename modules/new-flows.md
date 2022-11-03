@@ -29,17 +29,17 @@ Observe the `Policies Board` to identify the security policy that will deny traf
 
 ![new-flow-frontend.gif](images/new-flow-frontend.gif)
 
-### `monitoring` to `bookinfo`
-
-Observe the `Policies Board` to identify the security policy that will deny traffic from the `monitoring` namespace to the `bookinfo` namespace. 
-
-![new-flow-productpage.gif](images/new-flow-productpage.gif)
-
 ### `monitoring` to `yaobank`
 
 Observe the `Policies Board` to identify the security policy that will deny traffic from the `monitoring` namespace to the `yaobank` namespace. 
 
 ![new-flow-yaobank.gif](images/new-flow-customer.gif)
+
+### `monitoring` to `bookinfo`
+
+Observe the `Policies Board` to identify the security policy that will deny traffic from the `monitoring` namespace to the `bookinfo` namespace. 
+
+![new-flow-productpage.gif](images/new-flow-productpage.gif)
 
 # Deploy `loadgeneratorv2`
 

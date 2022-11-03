@@ -11,3 +11,11 @@
 ## `monitoring` to `hipstershop`
 
 ![sg-monitoring-hipstershop-gif](images/sg-monitoring-hipstershop.gif)
+
+## `loadgeneratorv2` to `frontend` in the `hipstershop` namespace
+
+![sg-loadgeneratorv2-frontened-gif](images/loadgeneratorv2-frontend.gif)
+
+## `ratings` to `www.github.com`
+
+![sg-ratings-github-gif](images/ratings-github.gif)
