@@ -1,5 +1,7 @@
 # Using Service Graph to Identify Denied Flows
 
+![sg-deny-gif](images/sg-block-flows.gif)
+
 ## Denied flow from `monitoring-pod`
 
 ### `monitoring` to `hipstershop`

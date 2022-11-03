@@ -1,11 +1,11 @@
 
 # Using Kibana to Identify Denied Flows
 
-The `Tigera Secure EE Flow Logs` dashboard can be used to filter denied flow logs in Kibana. 
+The `Tigera Secure EE Flow Logs` dashboard can be used to filter denied flow logs in Kibana. The flow filtering options can be used to narrow down specifi flows. 
 
 ![kibana-block-flows](images/kibana-block-flows.gif)
 
-## Denied flow from `monitoring-pod`
+## Denied flows from `monitoring-pod`
 
 ### `monitoring` to `hipstershop`
 
@@ -20,10 +20,10 @@ The `Tigera Secure EE Flow Logs` dashboard can be used to filter denied flow log
 ![kibana-m-p](images/kibana-m-p.png)
 
 
-## Denied flow from `loadgeneratorv2`
+## Denied flows from `loadgeneratorv2`
 
 ![kibana-l-f](images/kibana-l-f.png)
 
-## Denied flow from `ratings`
+## Denied flows from `ratings`
 
 ![kibana-r-g](images/kibana-r-g.png)
