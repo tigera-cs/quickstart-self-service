@@ -24,5 +24,5 @@
 
 ![step6](images/step6.png)
 
-
+#### <div align="right">  [Click Next -> Lesson 1 - Service Graph - Views and Layers](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/views-and-layers-sg.md) </div>
 
