@@ -309,3 +309,5 @@ spec:
     - Ingress
     - Egress
 ```
+
+#### <div align="right">  [Click Next -> Lesson 10 - Security Policies in the Platform Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-in-platform-tier.md) </div>

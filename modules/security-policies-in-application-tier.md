@@ -155,3 +155,5 @@ spec:
 ```
 
 ### Validate Endpoints
+
+#### <div align="right">  [Click Next -> Lesson 12 - Security Policies in the Appsec Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policies-in-appsec-tier.md) </div>

@@ -77,3 +77,5 @@ The `ratings` to `www.github.com` flow is denied by the below security.
 # Lesson Video
 
 [![sg-denied-flows](images/sgdd.png)](https://tigera.wistia.com/medias/88j386d49p)
+
+#### <div align="right">  [Click Next -> Lesson 17 - Using Flow Vizualization to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/fv-denied-flows.md) </div>

@@ -59,3 +59,6 @@ spec:
 # Lesson Video
 
 [![deploy tiers](images/vdspt.png)](https://tigera.wistia.com/medias/9qdjr5onoj)
+
+
+#### <div align="right">  [Click Next -> Lesson 8 - Security Policies in the Default Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policies-default-tier.md) </div>

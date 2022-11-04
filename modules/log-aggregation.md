@@ -20,3 +20,5 @@ The table below summarizes the aggregation levels.
 </p>
 
 ---
+
+#### <div align="right">  [Click Next -> Lesson 3 - Service Graph and Flow Visualization - Analyzing Application Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-service-graph.md)</div>

@@ -865,3 +865,6 @@ spec:
 Validate the endpoints selected by the `shippingservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `shippingservice` workload are selected for the security policy. 
 
 ![shipping](images/shipping-gif.gif)
+
+
+#### <div align="right">  [Click Next -> Lesson 13 - Validate Security Policies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-security-policies.md) </div>

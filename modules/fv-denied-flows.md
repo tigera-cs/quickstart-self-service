@@ -82,4 +82,4 @@ The `ratings` to `www.github.com` flow is denied by the below security.
 # Lesson Video
 
 
-#### <div align="right">  [Click Next -> Lesson 17 - Using Flow Vizualization to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/fv-denied-flows.md) </div>
+#### <div align="right">  [Click Next -> Lesson 18 - Using Kibana to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/kibana-denied-flows.md) </div>

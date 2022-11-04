@@ -72,3 +72,5 @@ The `Pass: Any Protocol` ingress and egress rule metrics indicate that there is 
 > `policies:{all_policies:*tenant-2-default-allow*}`
 
 ![kibana-tenant-2-default-allow.png](images/kibana-tenant-2-default-allow.png)
+
+#### <div align="right">  [Click Next -> Lesson 14 - Enforce Default Deny for Application Namespaces](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/enforce-default-deny.md) </div>

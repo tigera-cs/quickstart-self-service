@@ -25,3 +25,4 @@ Create a layer called "tigera" and add the below namespaces.
 
 [![sg-views-layers](images/vsgvl.png)](https://tigera.wistia.com/medias/if9ccnwrdp)
 
+#### <div align="right">  [Click Next -> Lesson 2 - Flow Log Aggregtion](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/log-aggregation.md)</div>
