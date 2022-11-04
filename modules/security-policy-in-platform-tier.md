@@ -86,4 +86,57 @@ spec:
     - Egress
 ```
 
+### Validate Service Graph Security Policy Evaluation
+
+
+
+
+
 ## `ingress` Security Policy
+
+### Security Policy - UI View
+
+![ingress-policy](images/ingress-policy.png)
+
+
+### Security Policy - Manifest
+
+```yaml
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: platform.ingress
+  namespace: ingress-nginx
+spec:
+  tier: platform
+  order: 2
+  selector: app.kubernetes.io/name == "ingress-nginx"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        ports:
+          - '80'
+          - '443'
+    - action: Allow
+      source:
+        namespaceSelector: projectcalico.org/name == "kube-system"
+      destination: {}
+  egress:
+    - action: Allow
+      source: {}
+      destination:
+        namespaceSelector: >-
+          projectcalico.org/name == "hipstershop" || projectcalico.org/name ==
+          "yaobank" || projectcalico.org/namespace == "bookinfo"
+    - action: Allow
+      source: {}
+      destination:
+        selector: endpoints.projectcalico.org/serviceName == "kubernetes"
+        namespaceSelector: projectcalico.org/name == "default"
+  types:
+    - Ingress
+    - Egress
+```
