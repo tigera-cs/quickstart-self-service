@@ -155,5 +155,9 @@ curl http://20.221.88.154/ -H "Host: www.yaobank.com"
 
 <span style="background-color: #FF8900">**Note that your IPs will be different**</span>
 
+# Lesson Lab Tasks
 
 # Lesson Video
+
+
+#### <div align="right">  [Click Next -> Module 2 - Calico Policy Constructs](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-2-introduction.md) </div>

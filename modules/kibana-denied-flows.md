@@ -27,3 +27,5 @@ The `Tigera Secure EE Flow Logs` dashboard can be used to filter denied flow log
 ## Denied flows from `ratings`
 
 ![kibana-r-g](images/kibana-r-g.png)
+
+#### <div align="right">  [Click Next -> Lesson 19 - Remediate Security Policies to Permit Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/remediate-security-policies.md) </div>

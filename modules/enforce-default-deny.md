@@ -145,3 +145,5 @@ spec:
 # Lesson Video
 
 [![sg-views-layers](images/vedd.png)](https://tigera.wistia.com/medias/nyvmnpsbu1)
+
+#### <div align="right">  [Click Next -> Lesson 15 - Introduce New Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/new-flows.md) </div>

@@ -21,3 +21,5 @@ The `bookinfo-allow` security policy will have rules to permit ingress and egres
 ## Implicit Deny
 
 The application tier will have an implicit deny for traffic flows not explicitly permitted for endpoints matched/selected by security policies in the tier. Although the implicit deny is logically represented to be in the bottom of the tier, the behavior is enforced by the last security policy in the tier that matches a particular endpoint. 
+
+#### <div align="right">  [Click Next -> Lesson 5 - The Application Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/appsec-tier.md) </div>

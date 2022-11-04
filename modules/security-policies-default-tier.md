@@ -154,3 +154,6 @@ Validate the endpoints selected by the `tenant-2-default-allow` security policy 
 # Lesson Lab Tasks
 
 # Lesson Video
+
+
+#### <div align="right">  [Click Next -> Lesson 9 - Security Policies in the Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-in-security-tier.md) </div>

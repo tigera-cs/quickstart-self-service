@@ -458,3 +458,5 @@ spec:
   types:
     - Egress
 ```
+
+#### <div align="right">  [Click Next -> Lesson 20 - Validate Remediated Security Policlies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-remediate-security-policies.md) </div>

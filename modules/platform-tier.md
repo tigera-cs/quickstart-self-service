@@ -24,3 +24,5 @@ The `platform-default-pass` security policy will have the lowest precedence in t
 > platform-default-pass security policy
 
 ![platform-default-pass](images/platform-default-pass.png)
+
+#### <div align="right">  [Click Next -> Lesson 4 - The Application Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/application-tier.md) </div>

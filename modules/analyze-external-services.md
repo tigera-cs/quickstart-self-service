@@ -14,3 +14,5 @@ Use the `Top 10 External Domains` visualization to identify the external service
 > Kibana DNS external domains
 
 ![kibana-external](images/kibana-external-domains.gif)
+
+#### <div align="right">  [Click Next -> Lesson 6 -Create Domain Networksets for External Services](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-networksets-external-services.md) </div>

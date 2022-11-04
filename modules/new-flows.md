@@ -70,3 +70,5 @@ Observe the `Policies Board` to identify the security policy that will deny traf
 Click on `poliicies denying traffic` in the dashboard to filter the security policies denying the new flows introduced in this lesson. 
 
 ![new-flows-deny-policies.gif](images/new-flows-deny-policies.gif)
+
+#### <div align="right">  [Click Next -> Lesson 16 - Using Service Graph to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/sg-denied-flow.md) </div>

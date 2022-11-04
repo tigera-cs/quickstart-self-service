@@ -47,3 +47,5 @@ spec:
 # Lesson Lab Tasks
 
 # Lesson Video
+
+#### <div align="right">  [Click Next -> Lesson 7 - Deploy Tiers](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/deploy-tiers.md) </div>
