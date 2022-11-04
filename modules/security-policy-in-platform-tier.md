@@ -90,6 +90,10 @@ spec:
 
 ![sg-policy-evaluation](images/cluster-dns-allow.gif)
 
+### Validate Flow Visualization Security Policy Evaluation
+
+![sg-policy-evaluation](images/fv-cluster-dns-allow.gif)
+
 
 
 ## `ingress` Security Policy
@@ -144,3 +148,7 @@ spec:
 ### Validate Service Graph Security Policy Evaluation
 
 ![sg-policy-evaluation](images/ingress.gif)
+
+### Validate Flow Visualization Security Policy Evaluation
+
+![sg-policy-evaluation](images/fv-ingress.gif)
