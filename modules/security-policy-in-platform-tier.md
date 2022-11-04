@@ -140,3 +140,7 @@ spec:
     - Ingress
     - Egress
 ```
+
+### Validate Service Graph Security Policy Evaluation
+
+![sg-policy-evaluation](images/ingress.gif)
