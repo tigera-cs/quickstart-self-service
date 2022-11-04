@@ -88,7 +88,7 @@ spec:
 
 ### Validate Service Graph Security Policy Evaluation
 
-
+![sg-policy-evaluation](images/cluster-dns-allow.gif)
 
 
 
