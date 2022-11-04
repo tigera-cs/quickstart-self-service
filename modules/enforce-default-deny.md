@@ -1,3 +1,7 @@
+# Enforce Default Deny for Application Namespaces
+
+![step3](images/step6.png)
+
 ## `tenant-1-pass-all` to `tenant-1-restrict` Security Policy
 
 
