@@ -37,6 +37,8 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
      
 ### **04. Module 4 - Methodology for Implementing Zero-Trust Microsegmentation**
 
+- [Module 4 - Introduction](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-4-introduction.md)
+
 ####   **1. Step 1 - Identify**
    
    - [Lesson 1 - Service Graph - Views and Layers](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/views-and-layers-sg.md)
