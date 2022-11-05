@@ -9,6 +9,8 @@ In step 3 of the methodology for implementing zero-trust micro-segmentation, def
 
 ![security-policies-default-tier](images/security-policies-default-tier.png)
 
+![step1](images/step1.png)
+
 
 ## `tenant-01-default-allow` Security Policy
 

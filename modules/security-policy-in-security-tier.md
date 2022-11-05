@@ -3,6 +3,8 @@
 
 ![security-tier](images/security-tier.png)
 
+![step2](images/step2.png)
+
 ## `block-alienvault-ipthreatfeed` Security Policy
 
 ### Policy lable and Namespace Selector

@@ -3,6 +3,8 @@
 
 ![appsec-tier](images/appsec-tier.png)
 
+![step3](images/step5.png)
+
 ## `frontend` Security Policy
 
 ### Policy label selector

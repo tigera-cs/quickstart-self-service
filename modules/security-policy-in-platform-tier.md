@@ -2,6 +2,8 @@
 
 ![platform tier](images/quickstart-self-service-platform-tier.png)
 
+![step3](images/step3.png)
+
 ## `cluster-dns-allow-all` Security Policy
 
 ### Policy lable and Namespace Selector

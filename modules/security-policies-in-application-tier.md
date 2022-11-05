@@ -3,6 +3,8 @@
 
 ![application-tier](images/application-tier.png)
 
+![step3](images/step4.png)
+
 ## `tenant-02-bookinfo-allow` Security Policy
 
 ### Policy label selector
