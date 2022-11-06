@@ -1,7 +1,9 @@
 
 # Security Policies in the Security Tier
 
-The `security` tier will be used to implement high-level guardrails for the cluster. A `threatfeed` security policy will be enforced for all cluster workloads. The policy will `deny` egress connectivity to malicious IPs in the `threatfeed`. Tenant isolation is achieved by enforcing `tenant-1-restrict` and `tenant-2-restrict` security policies. These policies will ensure that the tenant workloads are isolated from the rest of the cluster workloads. 
+The `security` tier will be used to implement high-level guardrails for the cluster. A `threatfeed` security policy will be enforced for all cluster workloads. 
+
+In step 3 of the methodology for implementing zero-trust micro-segmentation, default-allow security policies called tenant-01-default-allow and tenant-02-default-allow will be deployed for tenant-01 and tenant-02 respectively. The objective is to develop all security policies for the tenant workloads and ensure that no traffic flows match the default-allow security policy before enforcing default-deny security policy for the tenants in step 4. The workshops assumes that security policies are developed for a live environment and this approach ensures that workloads are not impacted due to missing or misconfigured security policies.
 
 ![security-tier](images/security-tier.png)
 
