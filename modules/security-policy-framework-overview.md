@@ -27,6 +27,8 @@ The `platform tier` will be used to enforce the following controls,
 - Security policy to permit DNS traffic for all cluster workloads
 - Security policy to permit `ingress` traffic to tenant-1 and tenant-2 applications
 
+### Application Tier
+
 
 ![security policy framework](images/security-policy-framework.png)
 
