@@ -1,8 +1,8 @@
 # Module 2 - Introduction
 
-## Characteristics of Security Policies
+## Security Policy Characteristics
 
-Calico security policies are
+Calico security policies are:
 - Declarative - Offers a powerful policy language to define security intentions
 - Label based - Maps security policies to endpoints based on workload identity 
 - Dynamic - Security policies are tightly-coupled with workloads
@@ -12,4 +12,6 @@ Calico security policies are
 ![security-policy-characteristics](images/security-policy-characteristics.png)
 
 ## The Anatomy of a Security Policy
+
+![anatomy-of-policy](images/anatomy-of-policy.png)
 
