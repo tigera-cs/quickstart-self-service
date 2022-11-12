@@ -13,5 +13,11 @@ Calico security policies are:
 
 ## The Anatomy of a Security Policy
 
+### `scope`
+
+The `scope`
+
+> The Anatomy of a Security Policy
+
 ![anatomy-of-policy](images/anatomy-of-policy.png)
 
