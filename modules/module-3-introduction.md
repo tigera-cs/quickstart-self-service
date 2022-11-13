@@ -19,6 +19,6 @@ The following can be considered `security domains` for which security policies m
 
 ![Security Domains](images/security-domains.png)
 
-> #### <div align="right">  [Click Next -> Lesson 1 - Security Policy Framework Overview](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-framework-overview.md) </div>
+> #### <div align="right">  [Next: Lesson 1 - Security Policy Framework Overview](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-framework-overview.md) </div>
 
 
