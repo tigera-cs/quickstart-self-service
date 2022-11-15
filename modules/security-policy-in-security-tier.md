@@ -9,6 +9,60 @@ In step 3 of the methodology for implementing zero-trust micro-segmentation, def
 
 ![step2](images/step2.png)
 
+## `security-default-pass` Security Policy
+
+### Policy lable and Namespace Selector
+
+There are no policy label or namespace label selectors in the `security-default-pass` security policy. The security policy will match all cluster endpoints. However, the security policy will not be applicable to tenant-1 and tenant-2 workloads in the `hipstershop` , `yaobank` and `bookinfo` namespaces respectively. For these workloads the `tenant-1-pass-all` and `tenant-2-pass-all` security policies will take a higher precendence and will either pass traffic to subsequent tiers for evaluation or deny traffic. As a result, the `security-default-pass` security policy will never be evaluated for those endpoints. 
+
+*Refer [Module 3, Lesson 2 - The Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-tier.md) for more details.*
+
+### Ingress
+
+The `security-default-pass` security policy has the following ingress rules. 
+
+01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all ingress traffic. 
+
+### Egress
+
+The `security-default-pass` security policy has the following egress rules. 
+
+01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all egress traffic. 
+
+### Security Policy - UI View
+> `security-default-pass` security policy - UI view
+
+![security-default-pass](images/quickstart-self-service-security-default-pass.png)
+
+### Security Policy - Manifest
+> `security-default-pass` security policy - yaml
+```yaml
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: security.security-default-pass
+spec:
+  tier: security
+  order: 10000
+  selector: ''
+  namespaceSelector: ''
+  serviceAccountSelector: ''
+  ingress:
+    - action: Pass
+      source: {}
+      destination: {}
+  egress:
+    - action: Pass
+      source: {}
+      destination: {}
+  doNotTrack: false
+  applyOnForward: false
+  preDNAT: false
+  types:
+    - Ingress
+    - Egress
+```
+
 ## `block-alienvault-ipthreatfeed` Security Policy
 
 ### Policy lable and Namespace Selector
@@ -262,58 +316,6 @@ Validate the endpoints selected by the `tenant-2-pass-all` security policy by cl
 
 ![fv-tenant-2-pass-allow](images/fv-tenant-2-pass-all.gif)
 
-## `security-default-pass` Security Policy
 
-### Policy lable and Namespace Selector
-
-There are no policy label or namespace label selectors in the `security-default-pass` security policy. The security policy will match all cluster endpoints. However, the security policy will not be applicable to tenant-1 and tenant-2 workloads in the `hipstershop` , `yaobank` and `bookinfo` namespaces respectively. For these workloads the `tenant-1-pass-all` and `tenant-2-pass-all` security policies will take a higher precendence and will either pass traffic to subsequent tiers for evaluation or deny traffic. As a result, the `security-default-pass` security policy will never be evaluated for those endpoints. 
-
-*Refer [Module 3, Lesson 2 - The Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-tier.md) for more details.*
-
-### Ingress
-
-The `security-default-pass` security policy has the following ingress rules. 
-
-01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all ingress traffic. 
-
-### Egress
-
-The `security-default-pass` security policy has the following egress rules. 
-
-01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all egress traffic. 
-
-### Security Policy - UI View
-> `security-default-pass` security policy - UI view
-
-![security-default-pass](images/quickstart-self-service-security-default-pass.png)
-
-### Security Policy - Manifest
-> `security-default-pass` security policy - yaml
-```yaml
-apiVersion: projectcalico.org/v3
-kind: GlobalNetworkPolicy
-metadata:
-  name: security.security-default-pass
-spec:
-  tier: security
-  order: 10000
-  selector: ''
-  namespaceSelector: ''
-  serviceAccountSelector: ''
-  ingress:
-    - action: Pass
-      source: {}
-      destination: {}
-  egress:
-    - action: Pass
-      source: {}
-      destination: {}
-  doNotTrack: false
-  applyOnForward: false
-  preDNAT: false
-  types:
-    - Ingress
-    - Egress
-```
 
 #### <div align="right">  [Click Next -> Lesson 10 - Security Policies in the Platform Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-in-platform-tier.md) </div>

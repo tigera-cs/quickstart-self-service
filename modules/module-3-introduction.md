@@ -9,7 +9,7 @@ The following can be considered `security domains` for which security policies m
 
 1.  **The cluster** - The cluster can be considered a single `security domain`. For example, a `threatfeed` security policy that would `deny` egress connectivity to malicious IPs can be enforced for all cluster workloads. 
 
-2.  **Tenants** - Tenants can be considered separate `security domains`. For example, tenant-1 and tenant-2 workloads must be isolated from the rest of the cluster workloads. Although the concept of tenants is used in the workshop, it can be extended to environments such as PCI or business units in an organization. It is simply, a collection of applications or namespaces for which a security definition must be enforced.  
+2.  **Tenants** - Tenants are separate `security domains`. For example, tenant-1 and tenant-2 workloads must be isolated from the rest of the cluster workloads. Although the concept of tenants is used in the workshop, it can be extended to environments such as PCI or business units in an organization. It is simply, a collection of applications or namespaces for which a security definition must be enforced.  
 
 3.  **Namespaces** - Namespaces are a logical Kubernetes construct and can be used to organize Kubernetes resources such as deployments and services. A namespace would typicall consist of a collection of microservices that make up an application. Namespaces can also be considered separate `security domains`. For example, applications must be protected from other applications within the same tenant.
 

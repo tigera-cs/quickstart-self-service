@@ -1,4 +1,4 @@
-# Module 4 Introduction
+# Module 4 - Introduction
 
 ## 1 - Security Policies in the `default` tier
 
