@@ -4,6 +4,59 @@
 
 ![step3](images/step3.png)
 
+## `platform-default-pass` Security Policy
+
+### Policy lable and Namespace Selector
+
+There are no policy label or namespace label selectors in the `platform-default-pass` security policy. The security policy will match all cluster endpoints
+
+### Ingress
+
+The `platform-default-pass` security policy has the following ingress rules. 
+
+01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all ingress traffic. 
+
+### Egress
+
+The `platform-default-pass` security policy has the following egress rules. 
+
+01. **Rule 0** - For all endpoints, pass security policy evaluation to subsequent tiers for all egress traffic. 
+
+### Security Policy - UI View
+> `platform-default-pass` security policy - UI view
+
+![platform-default-pass](images/platform-default-pass-policy.png)
+
+### Security Policy - Manifest
+
+> `platform-default-pass` security policy - yaml
+```yaml
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: platform.platform-default-pass
+spec:
+  tier: platform
+  order: 10000
+  selector: ''
+  namespaceSelector: ''
+  serviceAccountSelector: ''
+  ingress:
+    - action: Pass
+      source: {}
+      destination: {}
+  egress:
+    - action: Pass
+      source: {}
+      destination: {}
+  doNotTrack: false
+  applyOnForward: false
+  preDNAT: false
+  types:
+    - Ingress
+    - Egress
+```
+
 ## `cluster-dns-allow-all` Security Policy
 
 ### Policy lable and Namespace Selector

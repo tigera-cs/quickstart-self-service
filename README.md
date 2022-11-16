@@ -46,7 +46,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 ####  **2. Step 2 - Analyze**
    - [Lesson 2 - Flow Log Aggregtion](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/log-aggregation.md)
    - [Lesson 3 - Service Graph and Flow Visualization - Analyzing Application Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-service-graph.md)
-   - [Lesson 4 - Anayze Flows to kube-dns](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-kube-dns.md) 
+   - [Lesson 4 - Anaylze Flows to kube-dns](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-kube-dns.md) 
    - [Lesson 5 - Analyze Traffic to External Services using Service Graph and Kibana](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-external-services.md)
    - [Lesson 6 - Create Domain Networksets for External Services](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-networksets-external-services.md)
 
@@ -69,7 +69,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
    - [Lesson 17 - Using Flow Vizualization to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/fv-denied-flows.md)
    - [Lesson 18 - Using Kibana to Identify Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/kibana-denied-flows.md)
    - [Lesson 19 - Remediate Security Policies to Permit Denied Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/remediate-security-policies.md)
-   - [Lesson 20 - Validate Remediated Security Policlies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-remediate-security-policies.md)
+   - [Lesson 20 - Validate Remediated Security Policies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-remediate-security-policies.md)
 
 ### **05. Module 5 - Expanding the Security Policy Framework**
 
