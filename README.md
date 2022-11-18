@@ -4,11 +4,11 @@
 
 Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. The objective of this workshop is to help participants understand security policy frameworks and methodologies to implement zero-trust microsegmentation in Kubernetes. 
 
-## Table of Contents
-
 ### **Introduction**
 
 [![intro](/modules/images/intro.png)](https://tigera.wistia.com/medias/qwgycmgsfe)
+
+## Table of Contents
 
 ### **01. Module 1  - Lab Setup**
 
