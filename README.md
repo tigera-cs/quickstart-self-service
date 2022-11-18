@@ -8,6 +8,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 
 ### **Introduction**
 
+[![intro](/modules/images/intro.png)](https://tigera.wistia.com/medias/qwgycmgsfe)
 
 ### **01. Module 1  - Lab Setup**
 
