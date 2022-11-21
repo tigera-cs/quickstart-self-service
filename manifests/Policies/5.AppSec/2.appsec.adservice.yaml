@@ -1,0 +1,20 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.adservice
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 100
+  selector: app == "adservice"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "frontend"
+      destination:
+        ports:
+          - '9555'
+  types:
+    - Ingress

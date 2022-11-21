@@ -1,0 +1,26 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: default.tenant-1-default-allow
+spec:
+  tier: default
+  order: 1
+  selector: ''
+  namespaceSelector: >-
+    projectcalico.org/name == "hipstershop" || projectcalico.org/name ==
+    "yaobank"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      source: {}
+      destination: {}
+  egress:
+    - action: Allow
+      source: {}
+      destination: {}
+  doNotTrack: false
+  applyOnForward: false
+  preDNAT: false
+  types:
+    - Ingress
+    - Egress

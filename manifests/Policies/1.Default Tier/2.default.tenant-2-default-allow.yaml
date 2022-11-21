@@ -1,0 +1,24 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: default.tenant-2-default-allow
+spec:
+  tier: default
+  order: 2
+  selector: ''
+  namespaceSelector: projectcalico.org/name == "bookinfo"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      source: {}
+      destination: {}
+  egress:
+    - action: Allow
+      source: {}
+      destination: {}
+  doNotTrack: false
+  applyOnForward: false
+  preDNAT: false
+  types:
+    - Ingress
+    - Egress

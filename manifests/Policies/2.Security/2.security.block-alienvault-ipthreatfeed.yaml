@@ -1,0 +1,20 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: security.block-alienvault-ipthreatfeed
+spec:
+  tier: security
+  order: -90
+  selector: all()
+  namespaceSelector: ''
+  serviceAccountSelector: ''
+  egress:
+    - action: Deny
+      source: {}
+      destination:
+        selector: feed == "otx-ipthreatfeed"
+  doNotTrack: false
+  applyOnForward: false
+  preDNAT: false
+  types:
+    - Egress

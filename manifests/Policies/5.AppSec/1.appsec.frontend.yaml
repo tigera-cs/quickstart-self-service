@@ -1,0 +1,87 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.frontend
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 0
+  selector: app == "frontend"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "loadgenerator"
+      destination:
+        ports:
+          - '8080'
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: >-
+          (app.kubernetes.io/component == "controller" && app.kubernetes.io/name
+          == "ingress-nginx")
+        namespaceSelector: projectcalico.org/name == "ingress-nginx"
+      destination:
+        ports:
+          - '8080'
+  egress:
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        ports:
+          - '80'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "adservice"
+        ports:
+          - '9555'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "cartservice"
+        ports:
+          - '7070'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "checkoutservice"
+        ports:
+          - '5050'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "currencyservice"
+        ports:
+          - '7000'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "productcatalogservice"
+        ports:
+          - '3550'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "recommendationservice"
+        ports:
+          - '8080'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "shippingservice"
+        ports:
+          - '50051'
+  types:
+    - Ingress
+    - Egress

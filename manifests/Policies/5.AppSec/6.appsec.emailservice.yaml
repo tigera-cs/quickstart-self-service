@@ -1,0 +1,20 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.emailservice
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 500
+  selector: app == "emailservice"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "checkoutservice"
+      destination:
+        ports:
+          - '8080'
+  types:
+    - Ingress
