@@ -102,5 +102,10 @@ kubectl get all -n bookinfo
 
 # Lesson Video
 
+<p align="center">
+
+[![video-flow-log-aggregation](images/vfla.png)](https://tigera.wistia.com/medias/yhitu7fhop)
+
+</p>
 
 #### <div align="right">  [Click Next -> Lesson 3 - Deploy Ingress Controller](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/deploy-ingress-controller.md) </div>

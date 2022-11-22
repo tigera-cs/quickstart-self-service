@@ -1,0 +1,41 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: application.tenant-1-yaobank-allow
+  namespace: yaobank
+spec:
+  tier: application
+  order: 100
+  selector: ''
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      source:
+        selector: all()
+      destination: {}
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app.kubernetes.io/name == "ingress-nginx"
+        namespaceSelector: projectcalico.org/name == "ingress-nginx"
+      destination:
+        selector: app == "customer"
+        ports:
+          - '80'
+  egress:
+    - action: Allow
+      source: {}
+      destination:
+        selector: all()
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "customer"
+      destination:
+        selector: bloomberg == "true"
+        namespaceSelector: global()
+        ports:
+          - '443'
+  types:
+    - Ingress
+    - Egress

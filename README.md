@@ -22,9 +22,7 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 
    - [Module 2 - Introduction](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-2-introduction.md)
    - [Lesson 1 - Security Policies, Rules and Selectors](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/policies-rules.md) 
-   - [Lesson 1 - Security Policies, Rules and Selectors]
-   projectcalico.org/name
-   projectcalico.org/servicenedpoint
+   - 
 
 ### **03. Module 3 - Security Policy Framework for Zero-Trust Micro-segmentation**
 

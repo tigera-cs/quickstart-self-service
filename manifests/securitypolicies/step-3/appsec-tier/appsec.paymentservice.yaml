@@ -1,0 +1,20 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.paymentservice
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 600
+  selector: (zone == "trusted" && app == "paymentservice")
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "checkoutservice"
+      destination:
+        ports:
+          - '50051'
+  types:
+    - Ingress

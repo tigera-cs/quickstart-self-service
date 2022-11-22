@@ -1,0 +1,20 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.redis-cart
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 1000
+  selector: app == "redis-cart"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "cartservice"
+      destination:
+        ports:
+          - '6379'
+  types:
+    - Ingress

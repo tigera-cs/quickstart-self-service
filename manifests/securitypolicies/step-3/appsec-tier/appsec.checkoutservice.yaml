@@ -1,0 +1,64 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.checkoutservice
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 300
+  selector: app == "checkoutservice"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "frontend"
+      destination:
+        ports:
+          - '5050'
+  egress:
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "paymentservice"
+        ports:
+          - '50051'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "productcatalogservice"
+        ports:
+          - '3550'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "shippingservice"
+        ports:
+          - '50051'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "cartservice"
+        ports:
+          - '7070'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "currencyservice"
+        ports:
+          - '7000'
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "emailservice"
+        ports:
+          - '8080'
+  types:
+    - Ingress
+    - Egress

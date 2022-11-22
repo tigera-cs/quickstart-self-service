@@ -1,0 +1,20 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.loadgenerator
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 900
+  selector: (app == "loadgenerator" && zone == "dmz")
+  serviceAccountSelector: ''
+  egress:
+    - action: Allow
+      protocol: TCP
+      source: {}
+      destination:
+        selector: app == "frontend"
+        ports:
+          - '8080'
+  types:
+    - Egress

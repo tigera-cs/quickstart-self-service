@@ -1,0 +1,34 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: appsec.productcatalogservice
+  namespace: hipstershop
+spec:
+  tier: appsec
+  order: 700
+  selector: app == "productcatalogservice"
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "frontend"
+      destination:
+        ports:
+          - '3550'
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "recommendationservice"
+      destination:
+        ports:
+          - '3550'
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "checkoutservice"
+      destination:
+        ports:
+          - '3550'
+  types:
+    - Ingress

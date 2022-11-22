@@ -316,6 +316,20 @@ Validate the endpoints selected by the `tenant-2-pass-all` security policy by cl
 
 ![fv-tenant-2-pass-allow](images/fv-tenant-2-pass-all.gif)
 
+# Lesson Lab Tasks
+
+Apply the below security policy manifests. 
+
+```bash
+kubectl apply -f manifests/securitypolicies/step-3/security-tier/security.security-default-pass.yaml
+kubectl apply -f manifests/securitypolicies/step-3/security-tier/security.block-alienvault-ipthreatfeed.yaml
+kubectl apply -f manifests/securitypolicies/step-3/security-tier/security.tenant-01-pass-all.yaml 
+kubectl apply -f manifests/securitypolicies/step-3/security-tier/security.tenant-02-pass-all.yaml
+```
+
+
+# Lesson Video
+
 
 
 #### <div align="right">  [Click Next -> Lesson 10 - Security Policies in the Platform Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policy-in-platform-tier.md) </div>
