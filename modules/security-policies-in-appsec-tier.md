@@ -868,9 +868,6 @@ Validate the endpoints selected by the `shippingservice` security policy by clic
 
 ![shipping](images/shipping-gif.gif)
 
-
-#### <div align="right">  [Click Next -> Lesson 13 - Validate Security Policies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-security-policies.md) </div>
-
 # Lesson Lab Tasks
 
 Apply the below security policy manifests. 
@@ -878,3 +875,8 @@ Apply the below security policy manifests.
 ```bash
 kubectl apply -f manifests/securitypolicies/step-3/appsec-tier
 ```
+
+
+
+#### <div align="right">  [Click Next -> Lesson 13 - Validate Security Policies](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/validate-security-policies.md) </div>
+

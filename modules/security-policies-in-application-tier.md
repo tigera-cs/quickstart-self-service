@@ -158,8 +158,6 @@ spec:
 
 ### Validate Endpoints
 
-#### <div align="right">  [Click Next -> Lesson 12 - Security Policies in the Appsec Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policies-in-appsec-tier.md) </div>
-
 # Lesson Lab Tasks
 
 Apply the below security policy manifests. 
@@ -167,3 +165,7 @@ Apply the below security policy manifests.
 ```bash
 kubectl apply -f manifests/securitypolicies/step-3/application-tier
 ```
+
+#### <div align="right">  [Click Next -> Lesson 12 - Security Policies in the Appsec Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-policies-in-appsec-tier.md) </div>
+
+
