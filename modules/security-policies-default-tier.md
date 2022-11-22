@@ -155,6 +155,13 @@ Validate the endpoints selected by the `tenant-2-default-allow` security policy 
 
 # Lesson Lab Tasks
 
+Apply the below security policy manifests
+
+```bash
+kubectl apply -f manifests/securitypolicies/step-3/default-tier/default.tenant-1-default-allow.yaml
+kubectl apply -f manifests/securitypolicies/step-3/default-tier/default.tenant-2-default-allow.yaml
+```
+
 # Lesson Video
 
 
