@@ -1,0 +1,43 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: application.tenant-2-bookinfo-allow
+  namespace: bookinfo
+spec:
+  tier: application
+  order: 0
+  selector: ''
+  serviceAccountSelector: ''
+  ingress:
+    - action: Allow
+      source:
+        selector: all()
+      destination: {}
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: >-
+          (app.kubernetes.io/name == "ingress-nginx" &&
+          app.kubernetes.io/component == "controller")
+        namespaceSelector: projectcalico.org/name == "ingress-nginx"
+      destination:
+        selector: app == "productpage"
+        ports:
+          - '9080'
+  egress:
+    - action: Allow
+      source: {}
+      destination:
+        selector: all()
+    - action: Allow
+      protocol: TCP
+      source:
+        selector: app == "ratings"
+      destination:
+        selector: ubuntu == "true"
+        namespaceSelector: global()
+        ports:
+          - '443'
+  types:
+    - Ingress
+    - Egress
