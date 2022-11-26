@@ -79,7 +79,7 @@ Notes - Future lessons
 - source and destination reporting
 - kibana filtering based on index
 - Using services in security policy rules 
-- Security policy evaluation in logs s
+- Security policy evaluation in logs
 
 ---
 ## Quick Access - Lesson Videos
