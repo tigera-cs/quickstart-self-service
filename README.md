@@ -75,9 +75,11 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 ---
 ## Guide to Using the Workshop
 
-Notes 
+Notes - Future lessons
 - source and destination reporting
 - kibana filtering based on index
+- Using services in security policy rules 
+- Security policy evaluation in logs 
 
 ---
 ## Quick Access - Lesson Videos
