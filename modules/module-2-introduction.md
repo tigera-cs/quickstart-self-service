@@ -4,7 +4,7 @@
 
 Calico security policies are:
 - Declarative - Offers a powerful policy language to define security intentions
-- Label based - Maps security policies to endpoints based on workload identity 
+- Label-based - Maps security policies to endpoints based on workload identity 
 - Dynamic - Security policies are tightly coupled with workloads
 
 > Security Policy Characteristics
@@ -16,12 +16,20 @@ Calico security policies are:
 ### `kind`
 
 There are two types of security policies
-- networkpolicies 
-- globalnetworkpolicies
+- `NetworkPolicy` 
+- `Globalnetworkpolicy`
 
 ### `scope`
 
-The `scope`
+- A `NetworkPolicy` has a scope that applies to the namespace specified in the policy. 
+- A `GlobalNetworkPolicy` has a scope that applies to either all namespaces or namespaces specified using the `namespaceSelector` in the security policy
+
+### `Selectors`
+
+The following selectors are 
+
+
+
 
 > The Anatomy of a Security Policy
 
