@@ -3,7 +3,7 @@
 
 ## Security Domains
 
-In this module, you will explore a security policy framework to secure tenants and applications. Calico offers a powerful policy model to implement a hierarchical approach to security. Unlike traditional firewalls, which implement security as traffic transits specific points in the network, Calico enforces security for each endpoint or workload in the cluster. Understanding the concept of `security domains` is essential to implement hierarchical controls for Kubernetes workloads. A security policy framework that leverages Calico's `tiers` and `policy constructs` can be developed once the `security domains` of a cluster are identified. 
+In this module, you will explore a security policy framework to secure tenants and applications. Calico offers a powerful policy model to implement a hierarchical approach to security. Unlike traditional firewalls, which implement security as traffic transits specific points in the network, Calico enforces security for each endpoint or workload in the cluster. Understanding the concept of `security domains` is essential to implement hierarchical controls for Kubernetes workloads. A security policy framework that leverages Calico's `tiers` and `policy constructs` can be developed once a cluster's `security domains` are identified. 
 
 The lab cluster comprises the following `security domains`
 
