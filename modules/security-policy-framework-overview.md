@@ -48,4 +48,4 @@ The `appsec tier` is used to enforce the following controls,
 
 ![Security Domains](images/security-domains.png)
 
-#### <div align="right">  [Click Next -> Lesson 2 - The Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-tier.md) </div>
+#### <div align="right">  [Next: Lesson 2 - The Security Tier](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/security-tier.md) </div>
