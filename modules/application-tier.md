@@ -2,6 +2,8 @@
 
 The `application` tier implements coarse-grained security policies for namespaces. A policy for a namespace will ensure that all workloads inside the namespace can communicate with one another. However, `rules` must permit traffic flows in and out of the namespace. 
 
+> Security Policies in the `application tier`
+
 ![application-tier](images/application-tier.png)
 
 ## `yaobank-allow` Security Policy
