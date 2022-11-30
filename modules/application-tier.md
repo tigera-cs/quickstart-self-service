@@ -12,11 +12,13 @@ The `yaobank-allow` security policy will have rules to permit ingress and egress
 
 ![yaobank-allow](images/yaobank-allow.png)
 
-> bookinfo-allow security policy
+
 
 ## `bookinfo-allow` Security Policy
 
 The `bookinfo-allow` security policy will have rules to permit ingress and egress traffic flows to and from the endpoints in the namespace. All endpoints in the `bookinfo` namespace will be able to send and receive traffic from all other endpoints in the same namespace. Traffic flows entering and leaving the namespace must be explicitly permitted using policy rules. The security policy will have an ingress rule to allow traffic from the ingress controller.   
+
+> bookinfo-allow security policy
 
 ![bookinfo-allow](images/bookinfo-allow.png)
 
