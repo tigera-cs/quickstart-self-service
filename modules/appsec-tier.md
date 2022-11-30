@@ -10,6 +10,8 @@ The `appsec` tier implements fine-grained security policies that use policy labe
 
 The `appsec` tier implements a security policy for each deployment in the `hipstershop` namespace. Each security policy will have granular ingress and egress rules permitting traffic flows to and from each deployment. Unlike policies in the `application` tier, workloads matched in the `appsec` tier require defining policies to ensure that workloads in the same namespace can communicate.
 
+> Security Policies for `deployments` in the `hipstershop` namespace
+
 ![appsec-policies](images/appsec-policies.png)
 
 ## Implicit Deny
