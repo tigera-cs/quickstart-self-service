@@ -21,8 +21,8 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 ### **02. Module 2 - Calico Security Policy Constructs**
 
    - [Module 2 - Introduction](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-2-introduction.md)
-   - [Lesson 1 - Security Policies, Rules and Selectors](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/policies-rules.md) 
-   - 
+   - [Lesson 1 - The Anatomy of a Security Policy](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/policies-rules.md) 
+   
 
 ### **03. Module 3 - Security Policy Framework for Zero-Trust Micro-segmentation**
 
