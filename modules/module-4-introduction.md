@@ -1,5 +1,13 @@
 # Module 4 - Introduction
 
+This module will present methodologies for implementing zero-trust micro-segmentation. The workshop assumes that micro-segmentation is performed for a live Kubernetes cluster. The methodology ensures minimal disruption to workloads in the cluster. However, you may skip or tweak any steps to best suit your requirement. 
+
+## Methodology for Zero-Trust Micro-segmentation
+
+> Methodology for Zero-Trust Micro-segmentation
+
+![methodology](images/methodology.png)
+
 ## 1 - Security Policies in the `default` tier
 
 ![step1](images/step1.png)
