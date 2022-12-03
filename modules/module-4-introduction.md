@@ -4,33 +4,48 @@ This module will present methodologies for implementing zero-trust micro-segment
 
 ## Methodology for Zero-Trust Micro-segmentation
 
+The following step-by-step approach is used to identify, analyze, deploy, enforce, and remediate security policies for workloads in the lab cluster. The steps can be replicated in any environment undergoing zero-trust micro-segmentation. 
+
 > Methodology for Zero-Trust Micro-segmentation
 
 ![methodology](images/methodology.png)
 
-## 1 - Security Policies in the `default` tier
+### Identify 
+
+The 
+
+### Analyze 
+
+### Deploy
+
+Security policies will be deployed in the following sequence to ensure that applications are not impacted during the process. In this step of the methodology, policies are deployed with fail-safe rules in the `security` and `default` tiers. The objective is to monitor the fail-safe rules and remediate any missed rules before enforce a `default-deny` posture in the next step. 
+
+#### 1 - Security Policies in the `default` tier
 
 ![step1](images/step1.png)
 
-## 2 - Security Policies in the `security` tier
+#### 2 - Security Policies in the `security` tier
 
 ![step2](images/step2.png)
 
-## 3 - Security Policies in the `platform` tier
+#### 3 - Security Policies in the `platform` tier
 
 ![step3](images/step3.png)
 
-## 4 - Security Policies in the `application` tier
+#### 4 - Security Policies in the `application` tier
 
 ![step4](images/step4.png)
 
-## 5 - Security Policies in the `appsec` tier
+#### 5 - Security Policies in the `appsec` tier
 
 ![step2](images/step5.png)
 
-## Enforce Default Deny for Application Namespace
+### Enforce
 
 ![step6](images/step6.png)
+
+### Remediate
+
 
 #### <div align="right">  [Click Next -> Lesson 1 - Service Graph - Views and Layers](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/views-and-layers-sg.md) </div>
 

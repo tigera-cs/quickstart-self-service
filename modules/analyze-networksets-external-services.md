@@ -1,8 +1,10 @@
-# Create Domain Networsets for External Services
+# Create Domain GlobalNetworkSets for External Services
 
 > ### Quick Access - [Lesson Lab Tasks](#Lesson-Lab-Tasks) 
 
-## `ubuntu` Networkset
+`GlobalNetworkSets` can be used to specify `allowEgressDomains` and can be referred to in security policy rules using labels. You can specify exact and wildcard domains. Refer to [GlobalNetworkSet](https://docs.tigera.io/v3.14/reference/resources/globalnetworkset) for more information. 
+
+## `ubuntu` GlobalNetworkSet
 
 > `ubuntu` Networkset UI View
 
@@ -23,7 +25,7 @@ spec:
     - '*.ubuntu.com'
 ```
 
-## `bloomberg` Networkset
+## `bloomberg` GlobalNetworkSet
 
 > `bloomberg` Networkset UI View
 
