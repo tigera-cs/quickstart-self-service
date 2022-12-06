@@ -75,5 +75,5 @@ In the final step, new traffic flows are introduced to the application workloads
 
 
 
-#### <div align="right">  [Click Next -> Lesson 1 - Service Graph - Views and Layers](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/views-and-layers-sg.md) </div>
+#### <div align="right">  [Next: Lesson 1 - Service Graph - Views and Layers](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/views-and-layers-sg.md) </div>
 
