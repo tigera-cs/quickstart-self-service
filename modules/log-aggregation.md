@@ -31,4 +31,4 @@ kubectl patch felixconfiguration.p default -p '{"spec":{"flowLogsFileAggregation
 
 ---
 
-#### <div align="right">  [Click Next -> Lesson 3 - Service Graph and Flow Visualization - Analyzing Application Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-service-graph.md)</div>
+#### <div align="right">  [Next: Lesson 3 - Service Graph and Flow Visualization - Analyzing Application Flows](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-service-graph.md)</div>
