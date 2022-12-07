@@ -6,7 +6,7 @@
 
 ## `platform-default-pass` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label or namespace label selectors in the `platform-default-pass` security policy. The security policy will match all cluster endpoints
 
@@ -59,7 +59,7 @@ spec:
 
 ## `cluster-dns-allow-all` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label or namespace label selectors in the `cluster-dns-allow-all` security policy. The security policy will match all cluster endpoints. 
 

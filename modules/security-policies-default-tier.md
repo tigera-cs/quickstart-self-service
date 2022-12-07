@@ -14,7 +14,7 @@ In step 3 of the methodology for implementing zero-trust micro-segmentation, def
 
 ## `tenant-01-default-allow` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label selectors for the `tenant-1-default-allow` security policy. Namespace label selectors are used to select all endpoints in the `hipstershop` and `yaobank` namespaces. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespaces. 
 
@@ -86,7 +86,7 @@ Validate the endpoints selected by the `tenant-1-default-allow` security policy 
 
 ## `tenant-02-default-allow` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label selectors for the `tenant-2-default-allow` security policy. Namespace label selectors are used to select all endpoints in the `bookinfo` namespace. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespace.   
 

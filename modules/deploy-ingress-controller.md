@@ -21,7 +21,7 @@ NAME                                         TYPE           CLUSTER-IP     EXTER
 service/ingress-nginx-controller             LoadBalancer   10.0.122.1     20.221.88.154   80:30339/TCP,443:30156/TCP   28d
 service/ingress-nginx-controller-admission   ClusterIP      10.0.147.115   <none>          443/TCP                      28d
 
-NAME                                       READY   UP-TO-DATE   AVAILABLE   AGE
+NAME                                       READY   UP-TO-DATE   AVAIlabel   AGE
 deployment.apps/ingress-nginx-controller   1/1     1            1           28d
 
 NAME                                                 DESIRED   CURRENT   READY   AGE

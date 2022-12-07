@@ -11,7 +11,7 @@ In step 3 of the methodology for implementing zero-trust micro-segmentation, def
 
 ## `security-default-pass` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label or namespace label selectors in the `security-default-pass` security policy. The security policy will match all cluster endpoints. However, the security policy will not be applicable to tenant-1 and tenant-2 workloads in the `hipstershop` , `yaobank` and `bookinfo` namespaces respectively. For these workloads the `tenant-1-pass-all` and `tenant-2-pass-all` security policies will take a higher precendence and will either pass traffic to subsequent tiers for evaluation or deny traffic. As a result, the `security-default-pass` security policy will never be evaluated for those endpoints. 
 
@@ -65,7 +65,7 @@ spec:
 
 ## `block-alienvault-ipthreatfeed` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label or namespace label selectors in the `block-alienvault-ipthreatfeed` security policy. The security policy will match all cluster endpoints and will deny any traffic to IPs specified in the threat feed. 
 
@@ -115,7 +115,7 @@ spec:
 
 ## `tenant-1-pass-all` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label selectors for the `tenant-1-pass-all` security policy. Namespace label selectors are used to select all endpoints in the `hipstershop` and `yaobank` namespaces. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespaces.   
 
@@ -220,7 +220,7 @@ Validate the endpoints selected by the `tenant-1-pass-all` security policy by cl
 
 ## `tenant-2-pass-all` Security Policy
 
-### Policy lable and Namespace Selector
+### Policy label and Namespace Selector
 
 There are no policy label selectors for the `tenant-2-pass-all` security policy. Namespace label selectors are used to select all endpoints in the `bookinfo` namespace. The [projectcalico.org/name](https://docs.tigera.io/v3.14/reference/resources/globalnetworkpolicy) label is used to select the namespace.   
 

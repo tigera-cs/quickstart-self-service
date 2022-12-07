@@ -19,11 +19,11 @@ There are two types of security policies
 
 ## `selectors`
 
-The following selectors are available:
+The following selectors are availabel:
 
-- `namespaceSelector` - Selects the namespace(s) to which a [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy) applies. Select a specific namespace by name using the 'projectcalico.org/name' label. Note that the selector is only available for [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy).
+- `namespaceSelector` - Selects the namespace(s) to which a [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy) applies. Select a specific namespace by name using the 'projectcalico.org/name' label. Note that the selector is only availabel for [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy).
 
-- `serviceAccountSelector` - Selects the service account(s) to which a security policy applied. Select all service accounts in the cluster with a specific name using the `projectcalico.org/name` label. Available in both [NetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy) and [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy).
+- `serviceAccountSelector` - Selects the service account(s) to which a security policy applied. Select all service accounts in the cluster with a specific name using the `projectcalico.org/name` label. Availabel in both [NetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy) and [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy).
 
 - `selector` -  Selects the endpoints to which a policy is applied. A selector is an expression that can be used to either match or unmatch resources based on their labels. Calico Enterprise label selectors support several operators, which can be combined into larger expressions using the boolean operators and parentheses. For more information, refer to [selector](https://docs.tigera.io/reference/resources/globalnetworkpolicy#selector)
 
