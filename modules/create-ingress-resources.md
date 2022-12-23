@@ -148,10 +148,15 @@ kubectl get ingress -n bookinfo
 ### `curl` to the ingress
 
 ```bash
+while sleep 1;
+do 
 curl http://20.221.88.154/ -H "Host: www.hipstershop.com"
 curl http://20.221.88.154/ -H "Host: www.bookinfo.com"
 curl http://20.221.88.154/ -H "Host: www.yaobank.com"
+done
 ```
+
+
 
 <span style="background-color: #FF8900">**Note that your IPs will be different**</span>
 
