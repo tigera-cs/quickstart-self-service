@@ -558,6 +558,8 @@ spec:
 
 Validate the endpoints selected by the `paymentservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `paymentservice` workload are selected for the security policy. 
 
+![emailservice-gif](images/paymentservice-gif.gif)
+
 ## `productcatalogservice` Security Policy
 
 ### Policy label selector
