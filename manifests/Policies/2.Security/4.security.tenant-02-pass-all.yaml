@@ -32,13 +32,6 @@ spec:
         ports:
           - '53'
     - action: Pass
-      protocol: TCP
-      source: {}
-      destination:
-        ports:
-          - '443'
-          - '80'
-    - action: Pass
       source: {}
       destination: {}
   doNotTrack: false
