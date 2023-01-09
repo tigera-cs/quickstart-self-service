@@ -76,10 +76,7 @@ In the final step, new traffic flows are introduced to the application workloads
 
 ### `curl` to the ingress
 
-CURL to the ingress to generate flow logs. Flow logs are required to analyze the applications in the Service Graph and Flow Visualization.
-
-> **Note**
-> Ensure that you are running a CURL to the ingress to generate the Kibana logs, Service Graph and Flow Visualization results shown in lessons in Module 4.
+Ensure that you are running a CURL to the ingress to generate the Kibana logs, Service Graph and Flow Visualization results shown in lessons in Module 4.
 
 ```bash
 while sleep 1;
