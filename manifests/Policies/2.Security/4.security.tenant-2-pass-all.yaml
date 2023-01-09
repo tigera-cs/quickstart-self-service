@@ -1,21 +1,17 @@
 apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
 metadata:
-  name: security.tenant-01-pass-all
+  name: security.tenant-2-pass-all
 spec:
   tier: security
-  order: 2
+  order: 3
   selector: ''
-  namespaceSelector: >-
-    projectcalico.org/name == "hipstershop" || projectcalico.org/name ==
-    "yaobank"
+  namespaceSelector: projectcalico.org/name == "bookinfo"
   serviceAccountSelector: ''
   ingress:
     - action: Pass
       source:
-        namespaceSelector: >-
-          projectcalico.org/name == "hipstershop" || projectcalico.org/name ==
-          "yaobank"
+        namespaceSelector: projectcalico.org/name == "bookinfo"
       destination: {}
     - action: Pass
       source:
@@ -28,16 +24,7 @@ spec:
     - action: Pass
       source: {}
       destination:
-        namespaceSelector: >-
-          projectcalico.org/name == "hipstershop" || projectcalico.org/name ==
-          "yaobank"
-    - action: Pass
-      protocol: TCP
-      source: {}
-      destination:
-        ports:
-          - '80'
-          - '443'
+        namespaceSelector: projectcalico.org/name == "bookinfo"
     - action: Pass
       protocol: UDP
       source: {}

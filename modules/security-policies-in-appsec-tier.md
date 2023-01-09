@@ -558,7 +558,7 @@ spec:
 
 Validate the endpoints selected by the `paymentservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `paymentservice` workload are selected for the security policy. 
 
-![emailservice-gif](images/paymentservice-gif.gif)
+![paymentservice-gif](images/paymentservice-gif.gif)
 
 ## `productcatalogservice` Security Policy
 
@@ -694,6 +694,8 @@ spec:
 ### Validate Endpoints
 
 Validate the endpoints selected by the `recommendationservice` security policy by clicking on the number of endpoints in UI view of the security policy. The output below shows that the `recommendationservice` workload are selected for the security policy. 
+
+![recommendationservice-gif](images/recommendations-gif.gif)
 
 ## `loadgenerator` Security Policy
 
