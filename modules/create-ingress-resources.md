@@ -150,7 +150,7 @@ kubectl get ingress -n bookinfo
 CURL to the ingress to generate flow logs. Flow logs are required to analyze the applications in the Service Graph and Flow Visualization.
 
 > **Note**
-> Ensure that you are running a CURL to the ingress when following to generate the Kibana logs, Service Graph and Flow Visualization results shown in [Module 4 - Methodology for Implementing Zero-Trust Microsegmentation](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-4-introduction.md)
+> Ensure that you are running a CURL to the ingress to generate the Kibana logs, Service Graph and Flow Visualization results shown in [Module 4 - Methodology for Implementing Zero-Trust Microsegmentation](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/module-4-introduction.md)
 
 ```bash
 while sleep 1;
