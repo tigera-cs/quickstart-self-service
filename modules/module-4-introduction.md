@@ -72,6 +72,26 @@ In this step, a defaul-deny security posture is enforced for the application nam
 
 In the final step, new traffic flows are introduced to the application workloads to assess the impact and remediate security policies. 
 
+## Requirement for Lessons in Module 4
+
+### `curl` to the ingress
+
+CURL to the ingress to generate flow logs. Flow logs are required to analyze the applications in the Service Graph and Flow Visualization.
+
+> **Note**
+> Ensure that you are running a CURL to the ingress to generate the Kibana logs, Service Graph and Flow Visualization results shown in lessons in Module 4.
+
+```bash
+while sleep 1;
+do 
+curl http://20.221.88.154/ -H "Host: www.hipstershop.com"
+curl http://20.221.88.154/ -H "Host: www.bookinfo.com"
+curl http://20.221.88.154/ -H "Host: www.yaobank.com"
+done
+```
+
+<span style="background-color: #FF8900">**Note that your IPs will be different**</span>
+
 
 
 
