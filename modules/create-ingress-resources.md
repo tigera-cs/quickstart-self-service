@@ -147,6 +147,11 @@ kubectl get ingress -n bookinfo
 
 ### `curl` to the ingress
 
+CURL to the ingress to generate flow logs. Flow logs are required to analyze the applications in the Service Graph and Flow Visualization.
+
+> **Note**
+> Ensure that you are running a CURL to the ingress
+
 ```bash
 while sleep 1;
 do 
@@ -155,8 +160,6 @@ curl http://20.221.88.154/ -H "Host: www.bookinfo.com"
 curl http://20.221.88.154/ -H "Host: www.yaobank.com"
 done
 ```
-
-
 
 <span style="background-color: #FF8900">**Note that your IPs will be different**</span>
 
