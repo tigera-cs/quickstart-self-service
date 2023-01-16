@@ -56,7 +56,7 @@ Apply the below filter to Kibana to filter flows matching the `Pass: Any Protoco
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Egress Rule
 
-Apply the below filter to Kibana to filter flows matching the `Pass: Any Protocol` ingress rule. The presence of flows indicate that traffic does match the rule. 
+Apply the below filter to Kibana to filter flows matching the `Pass: Any Protocol` egress rule. The presence of flows indicate that traffic does match the rule. 
 
 > `reporter: "src" and policies:{all_policies:*tenant-2-pass-all|pass|2*}`
 
