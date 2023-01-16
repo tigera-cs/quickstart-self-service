@@ -65,9 +65,13 @@ Apply the below filter to Kibana to filter flows matching the `Pass: Any Protoco
 
 ## `tenant-1-default-allow` Security Policy
 
+The `Allow: Any Protocol` ingress and egress rule metrics indicate that there is no traffic matching these rules. 
+
 ![evaluate-tenant-1-default-allow.png](images/evaluate-tenant-1-default-allow.png)
 
-### Evaluate Kibana Flow Logs for `tenant-2-default-allow` Security Policy
+### Evaluate Kibana Flow Logs for `tenant-1-default-allow` Security Policy
+
+Apply the below filter to Kibana to filter flows matching the `tenant-1-default-allow` security policy.  If there are no results, it would indicate that no flows match the security policy.
 
 > `policies:{all_policies:*tenant-1-default-allow*}`
 
@@ -76,9 +80,13 @@ Apply the below filter to Kibana to filter flows matching the `Pass: Any Protoco
 
 ## `tenant-2-default-allow` Security Policy
 
+The `Allow: Any Protocol` ingress and egress rule metrics indicate that there is no traffic matching these rules. 
+
 ![evaluate-tenant-2-default-allow.png](images/evaluate-tenant-2-default-allow.png)
 
 ### Evaluate Kibana Flow Logs for `tenant-2-default-allow` Security Policy
+
+Apply the below filter to Kibana to filter flows matching the `tenant-2-default-allow` security policy.  If there are no results, it would indicate that no flows match the security policy.
 
 > `policies:{all_policies:*tenant-2-default-allow*}`
 
