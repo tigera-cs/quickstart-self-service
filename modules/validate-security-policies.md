@@ -10,7 +10,6 @@ In this lesson, the below mentioned security policies created in the previous le
 
 > tenant-2-default-allow
 
-
 ## `tenant-1-pass-all` Security Policy
 
 ### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
@@ -23,11 +22,15 @@ The `Pass: Any Protocol` ingress and egress rule metrics indicate that there is 
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Ingress Rule
 
+Apply the below filter to Kibana to filter flows matching the `Pass: Any Protocol` ingress rule. If there are no results, it would indicate that no flows match the rule. 
+
 > `reporter: "dst" and policies:{all_policies:*tenant-1-pass-all|pass|2*}`
 
 ![kibana-dst-tenant-1-pass-all](images/kibana-dst-tenant-1-pass-all.png)
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Egress Rule
+
+Apply the below filter to Kibana to filter flows matching the `Pass: Any Protocol`egress rule. If there are no results, it would indicate that no flows match the rule. 
 
 > `reporter: "src" and policies:{all_policies:*tenant-1-pass-all|pass|3*}`
 
@@ -37,15 +40,23 @@ The `Pass: Any Protocol` ingress and egress rule metrics indicate that there is 
 
 ### Evaluate `Pass: Any Protocol` Ingress and Egress Rule Metrics
 
+The `Pass: Any Protocol` ingress rule metrics indicate that there is no traffic matching the rule. However, the `Pass: Any Protocol` egress rule metrics indicate that it does match traffic, specific rule/rules must be created before the rule can be migrated to a `Deny` rule.    
+
+Traffic metrics can also be seen for all other `pass` rules in the `tenant-1-pass-all` security policy. 
+
 ![evaluate-tenant-2-pass-all-gif](images/evaluate-tenant-2-pass-all.png)
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Ingress Rule
+
+Apply the below filter to Kibana to filter flows matching the `Pass: Any Protocol` ingress rule. If there are no results, it would indicate that no flows match the rule.
 
 > `reporter: "dst" and policies:{all_policies:*tenant-2-pass-all|pass|2*}`
 
 ![kibana-dst-tenant-2-pass-all](images/kibana-dst-tenant-2-pass-all.png)
 
 ### Evaluate Kibana Flow Logs for `Pass: Any Protocol` Egress Rule
+
+Apply the below filter to Kibana to filter flows matching the `Pass: Any Protocol` ingress rule. The presence of flows indicate that traffic does match the rule. 
 
 > `reporter: "src" and policies:{all_policies:*tenant-2-pass-all|pass|2*}`
 
