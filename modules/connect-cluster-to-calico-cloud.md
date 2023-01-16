@@ -18,7 +18,7 @@ Click on connect a cluster. Enter the name of the cluster and select the type of
 
 ## Apply Script to Kubernetes Cluster
 
-Copy the install script and paste the script in the Kubernetes cluster. The script will install and operator that will deploy the rest of the Calico Cloud components. 
+Copy the install script and paste the script in the Kubernetes cluster. The script will install an operator that will deploy the rest of the Calico Cloud components. 
 
 ![apply-script.png](images/apply-script.png)
 
