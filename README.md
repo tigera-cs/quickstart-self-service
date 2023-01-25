@@ -2,7 +2,7 @@
 
 <img src="/modules/images/Calico_Cloud_logo_badge.svg" width="300" height="300">
 
-Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. The objective of this workshop is to help participants understand security policy frameworks and methodologies to implement zero-trust microsegmentation in Kubernetes. 
+Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. The objective of this workshop is to help participants understand security policy frameworks and methodologies to implement identity-based microsegmentation in Kubernetes. 
 
 ### **Introduction**
 
@@ -72,25 +72,31 @@ Supporting documentation for the Calico Cloud Quickstart Self Guided Workshop. T
 
 ### **05. Module 5 - Expanding the Security Policy Framework**
 
----
-## Guide to Using the Workshop
-
-Notes - Future lessons
-- source and destination reporting
-- kibana filtering based on index
-- Using services in security policy rules 
-- Security policy evaluation in logs
+[Coming Soon]
 
 ---
 ## Quick Access - Lesson Videos
 
 - [1.1 - Connect Cluster to Calico Cloud](https://tigera.wistia.com/medias/zs6oc6j1uj)
-- [1.2 - Deploy Applications]()
-- [4.1 - Service Graph - Views and Layers]()
-- [4.2 - Flow Log Aggregation]()
-
+- [1.2 - Deploy Applications](https://tigera.wistia.com/medias/dsa4gj6vox)
+- [4.1 - Service Graph - Views and Layers](https://tigera.wistia.com/medias/if9ccnwrdp)
+- [4.2 - Flow Log Aggregation](https://tigera.wistia.com/medias/yhitu7fhop)
+- [4.3 - Service Graph and Flow Visualization - Analyzing Application Flows](https://tigera.wistia.com/medias/hitppj9mjk)
+- [4.7 - Deploying Security Policy Tiers](https://tigera.wistia.com/medias/9qdjr5onoj)
+- [4.12 - Service Graph - Security Policy Processing Sequence](https://tigera.wistia.com/medias/lymcn38m3b)
+- [4.14 -  Enforce Default Deny for Application Namespaces](https://tigera.wistia.com/medias/nyvmnpsbu1)
+- [4.16 - Using Service Graph to Identify Denied Flows](https://tigera.wistia.com/medias/88j386d49p)
+- [4.17 - Using Flow Vizualization to Identify Denied Flows](https://tigera.wistia.com/medias/k5en6cvfob)
 
 ## Security Policy Templates
 
    - [Policy Tiers](https://github.com/tigera-cs/quickstart-self-service/blob/main/manifests/securitypolicies/tiers.yaml)
+
+---
+## Upcoming Lessons
+
+- source and destination reporting
+- kibana filtering based on index
+- Using services in security policy rules 
+- Security policy evaluation in logs
 
