@@ -12,9 +12,9 @@ Click on the `kube-system` namespace in the Service Graph global view to obtain 
 
 ![kube-dns](images/sg-kube-dns.png)
 
-**Note**
-For more information regarding the traffic pattern for `kube-dns` refer to 
-[cluster-dns-allow-all](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/platform-tier.md) security policy in the `platform tier`
+> **Note**
+> For more information regarding the traffic pattern for `kube-dns` refer to 
+[cluster-dns-allow-all](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/platform-tier.md) security policy in the `platform tier`.
 
 
 #### <div align="right">  [Next: Lesson 5 - Analyze Traffic to External Services using Service Graph and Kibana](https://github.com/tigera-cs/quickstart-self-service/blob/main/modules/analyze-external-services.md) </div>
