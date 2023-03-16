@@ -6,7 +6,7 @@ metadata:
 spec:
   tier: appsec
   order: 900
-  selector: (app == "loadgenerator" && zone == "dmz")
+  selector: app == "loadgenerator"
   serviceAccountSelector: ''
   egress:
     - action: Allow

@@ -6,7 +6,7 @@ metadata:
 spec:
   tier: appsec
   order: 600
-  selector: (zone == "trusted" && app == "paymentservice")
+  selector: app == "paymentservice"
   serviceAccountSelector: ''
   ingress:
     - action: Allow

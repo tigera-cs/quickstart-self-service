@@ -1,4 +1,4 @@
-# Quickstart Self-paced Workshop (WIP)
+# Identity-aware Microsegmentation
 
 <img src="/modules/images/Calico_Cloud_logo_badge.svg" width="300" height="300">
 
