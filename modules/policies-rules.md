@@ -19,7 +19,7 @@ There are two types of security policies
 
 ## `selectors`
 
-The following selectors are availabel:
+The following selectors are available:
 
 - `namespaceSelector` - Selects the namespace(s) to which a [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy) applies. Select a specific namespace by name using the 'projectcalico.org/name' label. Note that the selector is only availabel for [GlobalNetworkPolicy](https://docs.tigera.io/reference/resources/globalnetworkpolicy).
 
