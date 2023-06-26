@@ -16,9 +16,6 @@ spec:
     - action: Pass
       source: {}
       destination: {}
-  doNotTrack: false
-  applyOnForward: false
-  preDNAT: false
   types:
     - Ingress
     - Egress
