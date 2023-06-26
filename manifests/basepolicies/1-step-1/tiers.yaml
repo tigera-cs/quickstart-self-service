@@ -15,20 +15,13 @@ spec:
 apiVersion: projectcalico.org/v3
 kind: Tier
 metadata:
-  name: priority
+  name: application
 spec:
   order: 400
 ---
 apiVersion: projectcalico.org/v3
 kind: Tier
 metadata:
-  name: application
-spec:
-  order: 500
----
-apiVersion: projectcalico.org/v3
-kind: Tier
-metadata:
   name: appsec
 spec:
-  order: 600
+  order: 500
