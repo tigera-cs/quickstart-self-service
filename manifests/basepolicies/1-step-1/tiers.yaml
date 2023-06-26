@@ -1,0 +1,34 @@
+apiVersion: projectcalico.org/v3
+kind: Tier
+metadata:
+  name: security
+spec:
+  order: 200
+---
+apiVersion: projectcalico.org/v3
+kind: Tier
+metadata:
+  name: platform
+spec:
+  order: 300
+---
+apiVersion: projectcalico.org/v3
+kind: Tier
+metadata:
+  name: priority
+spec:
+  order: 400
+---
+apiVersion: projectcalico.org/v3
+kind: Tier
+metadata:
+  name: application
+spec:
+  order: 500
+---
+apiVersion: projectcalico.org/v3
+kind: Tier
+metadata:
+  name: appsec
+spec:
+  order: 600

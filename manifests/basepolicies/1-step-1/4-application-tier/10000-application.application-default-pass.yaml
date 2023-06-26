@@ -1,0 +1,24 @@
+apiVersion: projectcalico.org/v3
+kind: GlobalNetworkPolicy
+metadata:
+  name: application.application-default-pass
+spec:
+  tier: application
+  order: 10000
+  selector: ''
+  namespaceSelector: ''
+  serviceAccountSelector: ''
+  ingress:
+    - action: Pass
+      source: {}
+      destination: {}
+  egress:
+    - action: Pass
+      source: {}
+      destination: {}
+  doNotTrack: false
+  applyOnForward: false
+  preDNAT: false
+  types:
+    - Ingress
+    - Egress
